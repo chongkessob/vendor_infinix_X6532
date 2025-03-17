@@ -47,7 +47,7 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/lib/.so"],
+			srcs: ["proprietary/lib/libstagefright_bufferpool@2.0.1.so"],
 			shared_libs: [ ],
 		},
 	},
@@ -4832,6 +4832,23 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libflatbuffers-cpp",
+	owner: "infinix",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libflatbuffers-cpp.so"],
+			shared_libs: [ ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libforkexecwrap",
 	owner: "infinix",
 	strip: {
@@ -7756,6 +7773,23 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libruy",
+	owner: "infinix",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libruy.so"],
+			shared_libs: [ ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libsensor_custom",
 	owner: "infinix",
 	strip: {
@@ -7985,6 +8019,23 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libst_mobile.so"],
+			shared_libs: [ ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libstagefright_bufferpool@2.0.1",
+	owner: "infinix",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libstagefright_bufferpool@2.0.1.so"],
 			shared_libs: [ ],
 		},
 	},
@@ -8810,6 +8861,23 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libvpx",
+	owner: "infinix",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libvpx.so"],
+			shared_libs: [ ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libvt_custom",
 	owner: "infinix",
 	strip: {
@@ -8937,6 +9005,23 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libwvhidl.so"],
+			shared_libs: [ ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libz_stable",
+	owner: "infinix",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libz_stable.so"],
 			shared_libs: [ ],
 		},
 	},
