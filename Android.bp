@@ -47,7 +47,7 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/lib/libstagefright_bufferpool@2.0.1.so"],
+			srcs: ["proprietary/lib/.so"],
 			shared_libs: [ ],
 		},
 	},
@@ -8019,23 +8019,6 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libst_mobile.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "32",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libstagefright_bufferpool@2.0.1",
-	owner: "infinix",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libstagefright_bufferpool@2.0.1.so"],
 			shared_libs: [ ],
 		},
 	},
