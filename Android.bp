@@ -11781,7 +11781,7 @@ sh_binary {
 	name: "AgentTest",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/AgentTest",
-	filename: "AgentTest",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -11789,7 +11789,7 @@ sh_binary {
 	name: "TransSchedTest",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/TransSchedTest",
-	filename: "TransSchedTest",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -11797,7 +11797,7 @@ sh_binary {
 	name: "aee_aedv",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/aee_aedv",
-	filename: "aee_aedv",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -11805,7 +11805,7 @@ sh_binary {
 	name: "aee_dumpstatev",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/aee_dumpstatev",
-	filename: "aee_dumpstatev",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -11813,7 +11813,7 @@ sh_binary {
 	name: "aeev",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/aeev",
-	filename: "aeev",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -11821,7 +11821,7 @@ sh_binary {
 	name: "applypatch",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/applypatch",
-	filename: "applypatch",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -11829,7 +11829,7 @@ sh_binary {
 	name: "atcid",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/atcid",
-	filename: "atcid",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -11837,7 +11837,7 @@ sh_binary {
 	name: "audiocmdservice_atci",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/audiocmdservice_atci",
-	filename: "audiocmdservice_atci",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -11845,7 +11845,7 @@ sh_binary {
 	name: "autobt",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/autobt",
-	filename: "autobt",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -11853,7 +11853,7 @@ sh_binary {
 	name: "bip",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/bip",
-	filename: "bip",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -11861,7 +11861,7 @@ sh_binary {
 	name: "boringssl_self_test32",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/boringssl_self_test32",
-	filename: "boringssl_self_test32",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -11869,7 +11869,7 @@ sh_binary {
 	name: "ccci_mdinit",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/ccci_mdinit",
-	filename: "ccci_mdinit",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -11877,7 +11877,7 @@ sh_binary {
 	name: "ccci_rpcd",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/ccci_rpcd",
-	filename: "ccci_rpcd",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -11885,7 +11885,7 @@ sh_binary {
 	name: "charon",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/charon",
-	filename: "charon",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -11893,7 +11893,7 @@ sh_binary {
 	name: "chg_sence",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/chg_sence",
-	filename: "chg_sence",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -11901,7 +11901,7 @@ sh_binary {
 	name: "chipinfo",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/chipinfo",
-	filename: "chipinfo",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -11909,7 +11909,7 @@ sh_binary {
 	name: "dexecutor",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/dexecutor",
-	filename: "dexecutor",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -11917,7 +11917,7 @@ sh_binary {
 	name: "dmabuf_dump",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/dmabuf_dump",
-	filename: "dmabuf_dump",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -11925,7 +11925,7 @@ sh_binary {
 	name: "dmc_core",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/dmc_core",
-	filename: "dmc_core",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -11933,7 +11933,7 @@ sh_binary {
 	name: "doeapp-memtester",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/doeapp-memtester",
-	filename: "doeapp-memtester",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -11941,7 +11941,7 @@ sh_binary {
 	name: "doeapp-sat",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/doeapp-sat",
-	filename: "doeapp-sat",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -11949,7 +11949,7 @@ sh_binary {
 	name: "dtc_vendor",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/dtc_vendor",
-	filename: "dtc_vendor",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -11957,7 +11957,7 @@ sh_binary {
 	name: "dumpsys",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/dumpsys",
-	filename: "dumpsys",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -11965,7 +11965,7 @@ sh_binary {
 	name: "em_hidl",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/em_hidl",
-	filename: "em_hidl",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -11973,7 +11973,7 @@ sh_binary {
 	name: "epdg_wod",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/epdg_wod",
-	filename: "epdg_wod",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -11981,7 +11981,7 @@ sh_binary {
 	name: "factory",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/factory",
-	filename: "factory",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -11989,7 +11989,7 @@ sh_binary {
 	name: "fpsgo",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/fpsgo",
-	filename: "fpsgo",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -11997,7 +11997,7 @@ sh_binary {
 	name: "fuelgauged",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/fuelgauged",
-	filename: "fuelgauged",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12005,7 +12005,7 @@ sh_binary {
 	name: "get_ufs_error",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/get_ufs_error",
-	filename: "get_ufs_error",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12013,7 +12013,7 @@ sh_binary {
 	name: "gsm0710muxd",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/gsm0710muxd",
-	filename: "gsm0710muxd",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12021,7 +12021,7 @@ sh_binary {
 	name: "hostapd_cli",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hostapd_cli",
-	filename: "hostapd_cli",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12029,7 +12029,7 @@ sh_binary {
 	name: "android.hardware.audio.service.mediatek",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.audio.service.mediatek",
-	filename: "android.hardware.audio.service.mediatek",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12038,7 +12038,7 @@ sh_binary {
 	name: "android.hardware.biometrics.face@1.0-service.example",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.biometrics.face@1.0-service.example",
-	filename: "android.hardware.biometrics.face@1.0-service.example",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12047,7 +12047,7 @@ sh_binary {
 	name: "android.hardware.biometrics.fingerprint@2.1-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service",
-	filename: "android.hardware.biometrics.fingerprint@2.1-service",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12056,7 +12056,7 @@ sh_binary {
 	name: "android.hardware.bluetooth@1.1-service-mediatek",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek",
-	filename: "android.hardware.bluetooth@1.1-service-mediatek",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12065,7 +12065,7 @@ sh_binary {
 	name: "android.hardware.boot@1.2-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.boot@1.2-service",
-	filename: "android.hardware.boot@1.2-service",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12074,7 +12074,7 @@ sh_binary {
 	name: "android.hardware.cas@1.2-service-lazy",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.cas@1.2-service-lazy",
-	filename: "android.hardware.cas@1.2-service-lazy",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12083,7 +12083,7 @@ sh_binary {
 	name: "android.hardware.drm@1.4-service-lazy.clearkey",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.drm@1.4-service-lazy.clearkey",
-	filename: "android.hardware.drm@1.4-service-lazy.clearkey",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12092,7 +12092,7 @@ sh_binary {
 	name: "android.hardware.drm@1.4-service-lazy.widevine",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.drm@1.4-service-lazy.widevine",
-	filename: "android.hardware.drm@1.4-service-lazy.widevine",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12101,7 +12101,7 @@ sh_binary {
 	name: "android.hardware.gatekeeper@1.0-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service",
-	filename: "android.hardware.gatekeeper@1.0-service",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12110,7 +12110,7 @@ sh_binary {
 	name: "android.hardware.graphics.allocator@4.0-service-mediatek",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek",
-	filename: "android.hardware.graphics.allocator@4.0-service-mediatek",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12119,7 +12119,7 @@ sh_binary {
 	name: "android.hardware.graphics.composer@2.1-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.graphics.composer@2.1-service",
-	filename: "android.hardware.graphics.composer@2.1-service",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12128,7 +12128,7 @@ sh_binary {
 	name: "android.hardware.health@2.1-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.health@2.1-service",
-	filename: "android.hardware.health@2.1-service",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12137,7 +12137,7 @@ sh_binary {
 	name: "android.hardware.keymaster@4.1-service.trustonic",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.keymaster@4.1-service.trustonic",
-	filename: "android.hardware.keymaster@4.1-service.trustonic",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12146,7 +12146,7 @@ sh_binary {
 	name: "android.hardware.lights-service.mediatek",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.lights-service.mediatek",
-	filename: "android.hardware.lights-service.mediatek",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12155,7 +12155,7 @@ sh_binary {
 	name: "android.hardware.media.c2@1.2-mediatek",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek",
-	filename: "android.hardware.media.c2@1.2-mediatek",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12164,7 +12164,7 @@ sh_binary {
 	name: "android.hardware.media.omx@1.0-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.media.omx@1.0-service",
-	filename: "android.hardware.media.omx@1.0-service",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12173,7 +12173,7 @@ sh_binary {
 	name: "android.hardware.memtrack-service.mediatek",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.memtrack-service.mediatek",
-	filename: "android.hardware.memtrack-service.mediatek",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12182,7 +12182,7 @@ sh_binary {
 	name: "android.hardware.secure_element@1.2-service-mediatek",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek",
-	filename: "android.hardware.secure_element@1.2-service-mediatek",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12191,7 +12191,7 @@ sh_binary {
 	name: "android.hardware.sensors@2.0-service.multihal-mediatek",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek",
-	filename: "android.hardware.sensors@2.0-service.multihal-mediatek",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12200,7 +12200,7 @@ sh_binary {
 	name: "android.hardware.usb@1.2-service-mediatekv2",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.usb@1.2-service-mediatekv2",
-	filename: "android.hardware.usb@1.2-service-mediatekv2",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12209,7 +12209,7 @@ sh_binary {
 	name: "android.hardware.vibrator-service.mediatek",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.vibrator-service.mediatek",
-	filename: "android.hardware.vibrator-service.mediatek",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12218,7 +12218,7 @@ sh_binary {
 	name: "android.hardware.wifi@1.0-service-lazy",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service-lazy",
-	filename: "android.hardware.wifi@1.0-service-lazy",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12227,7 +12227,7 @@ sh_binary {
 	name: "camerahalserver",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/camerahalserver",
-	filename: "camerahalserver",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12236,7 +12236,7 @@ sh_binary {
 	name: "hostapd",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/hostapd",
-	filename: "hostapd",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12245,7 +12245,7 @@ sh_binary {
 	name: "merged_hal_service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/merged_hal_service",
-	filename: "merged_hal_service",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12254,7 +12254,7 @@ sh_binary {
 	name: "mtkfusionrild",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/mtkfusionrild",
-	filename: "mtkfusionrild",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12263,7 +12263,7 @@ sh_binary {
 	name: "trandatacenter",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/trandatacenter",
-	filename: "trandatacenter",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12272,7 +12272,7 @@ sh_binary {
 	name: "tranradionet",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/tranradionet",
-	filename: "tranradionet",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12281,7 +12281,7 @@ sh_binary {
 	name: "vendor.focaltech.hardware.biometrics.fingerprint@1.0-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/vendor.focaltech.hardware.biometrics.fingerprint@1.0-service",
-	filename: "vendor.focaltech.hardware.biometrics.fingerprint@1.0-service",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12290,7 +12290,7 @@ sh_binary {
 	name: "vendor.mediatek.hardware.aee@1.1-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/vendor.mediatek.hardware.aee@1.1-service",
-	filename: "vendor.mediatek.hardware.aee@1.1-service",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12299,7 +12299,7 @@ sh_binary {
 	name: "vendor.mediatek.hardware.keymaster_attestation@1.1-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service",
-	filename: "vendor.mediatek.hardware.keymaster_attestation@1.1-service",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12308,7 +12308,7 @@ sh_binary {
 	name: "vendor.mediatek.hardware.mmagent@1.1-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/vendor.mediatek.hardware.mmagent@1.1-service",
-	filename: "vendor.mediatek.hardware.mmagent@1.1-service",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12317,7 +12317,7 @@ sh_binary {
 	name: "vendor.mediatek.hardware.mms@1.6-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/vendor.mediatek.hardware.mms@1.6-service",
-	filename: "vendor.mediatek.hardware.mms@1.6-service",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12326,7 +12326,7 @@ sh_binary {
 	name: "vendor.mediatek.hardware.mtkpower@1.0-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service",
-	filename: "vendor.mediatek.hardware.mtkpower@1.0-service",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12335,7 +12335,7 @@ sh_binary {
 	name: "vendor.mediatek.hardware.nvram@1.1-service-lazy",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service-lazy",
-	filename: "vendor.mediatek.hardware.nvram@1.1-service-lazy",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12344,7 +12344,7 @@ sh_binary {
 	name: "vendor.mediatek.hardware.nwk_opt@1.0-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/vendor.mediatek.hardware.nwk_opt@1.0-service",
-	filename: "vendor.mediatek.hardware.nwk_opt@1.0-service",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12353,7 +12353,7 @@ sh_binary {
 	name: "vendor.mediatek.hardware.paytrigger@1.0-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/vendor.mediatek.hardware.paytrigger@1.0-service",
-	filename: "vendor.mediatek.hardware.paytrigger@1.0-service",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12362,7 +12362,7 @@ sh_binary {
 	name: "vendor.mediatek.hardware.pq@2.2-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service",
-	filename: "vendor.mediatek.hardware.pq@2.2-service",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12371,7 +12371,7 @@ sh_binary {
 	name: "vendor.mediatek.hardware.tranHwInfo@1.0-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/vendor.mediatek.hardware.tranHwInfo@1.0-service",
-	filename: "vendor.mediatek.hardware.tranHwInfo@1.0-service",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12380,7 +12380,7 @@ sh_binary {
 	name: "vendor.storage@1.0-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/vendor.storage@1.0-service",
-	filename: "vendor.storage@1.0-service",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12389,7 +12389,7 @@ sh_binary {
 	name: "vendor.tne@1.0-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/vendor.tne@1.0-service",
-	filename: "vendor.tne@1.0-service",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12398,7 +12398,7 @@ sh_binary {
 	name: "vendor.transsion.hardware.security.deviceauthen@2.0-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/vendor.transsion.hardware.security.deviceauthen@2.0-service",
-	filename: "vendor.transsion.hardware.security.deviceauthen@2.0-service",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12407,7 +12407,7 @@ sh_binary {
 	name: "vendor.transsion.hardware.security.hap@1.0-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/vendor.transsion.hardware.security.hap@1.0-service",
-	filename: "vendor.transsion.hardware.security.hap@1.0-service",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12416,7 +12416,7 @@ sh_binary {
 	name: "vendor.transsion.hardware.security.trancriticalparavfy@1.0-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/vendor.transsion.hardware.security.trancriticalparavfy@1.0-service",
-	filename: "vendor.transsion.hardware.security.trancriticalparavfy@1.0-service",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12425,7 +12425,7 @@ sh_binary {
 	name: "vendor.transsion.hardware.trancam.trancamserver@1.0-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/vendor.transsion.hardware.trancam.trancamserver@1.0-service",
-	filename: "vendor.transsion.hardware.trancam.trancamserver@1.0-service",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12434,7 +12434,7 @@ sh_binary {
 	name: "vendor.transsion.hardware.tranfacaidl-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/vendor.transsion.hardware.tranfacaidl-service",
-	filename: "vendor.transsion.hardware.tranfacaidl-service",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12443,7 +12443,7 @@ sh_binary {
 	name: "vendor.transsion.performance.sched@1.0-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/vendor.transsion.performance.sched@1.0-service",
-	filename: "vendor.transsion.performance.sched@1.0-service",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12452,7 +12452,7 @@ sh_binary {
 	name: "vendor.trustonic.tee@1.1-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/vendor.trustonic.tee@1.1-service",
-	filename: "vendor.trustonic.tee@1.1-service",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12461,7 +12461,7 @@ sh_binary {
 	name: "vtservice_hidl",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/vtservice_hidl",
-	filename: "vtservice_hidl",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12470,7 +12470,7 @@ sh_binary {
 	name: "wpa_supplicant",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/wpa_supplicant",
-	filename: "wpa_supplicant",
+	filename_from_src: true,
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12479,7 +12479,7 @@ sh_binary {
 	name: "ipsec_mon",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/ipsec_mon",
-	filename: "ipsec_mon",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12487,7 +12487,7 @@ sh_binary {
 	name: "jpegtool",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/jpegtool",
-	filename: "jpegtool",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12495,7 +12495,7 @@ sh_binary {
 	name: "kmsetkey_ca.trustonic",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/kmsetkey_ca.trustonic",
-	filename: "kmsetkey_ca.trustonic",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12503,7 +12503,7 @@ sh_binary {
 	name: "lib3a.ccu.dm",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/lib3a.ccu.dm",
-	filename: "lib3a.ccu.dm",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12511,7 +12511,7 @@ sh_binary {
 	name: "lib3a.ccu.pm",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/lib3a.ccu.pm",
-	filename: "lib3a.ccu.pm",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12519,7 +12519,7 @@ sh_binary {
 	name: "loghidlvendorservice",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/loghidlvendorservice",
-	filename: "loghidlvendorservice",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12527,7 +12527,7 @@ sh_binary {
 	name: "mcDriverDaemon",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/mcDriverDaemon",
-	filename: "mcDriverDaemon",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12535,7 +12535,7 @@ sh_binary {
 	name: "md_monitor",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/md_monitor",
-	filename: "md_monitor",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12543,7 +12543,7 @@ sh_binary {
 	name: "md_monitor_ctrl",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/md_monitor_ctrl",
-	filename: "md_monitor_ctrl",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12551,7 +12551,7 @@ sh_binary {
 	name: "meta_tst",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/meta_tst",
-	filename: "meta_tst",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12559,7 +12559,7 @@ sh_binary {
 	name: "mnld",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/mnld",
-	filename: "mnld",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12567,7 +12567,7 @@ sh_binary {
 	name: "mrdump_tool",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/mrdump_tool",
-	filename: "mrdump_tool",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12575,7 +12575,7 @@ sh_binary {
 	name: "mt6660_calibration",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/mt6660_calibration",
-	filename: "mt6660_calibration",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12583,7 +12583,7 @@ sh_binary {
 	name: "mtk_agpsd",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/mtk_agpsd",
-	filename: "mtk_agpsd",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12591,7 +12591,7 @@ sh_binary {
 	name: "mtk_pkm_service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/mtk_pkm_service",
-	filename: "mtk_pkm_service",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12599,7 +12599,7 @@ sh_binary {
 	name: "mtk_plpath_utils_ota",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/mtk_plpath_utils_ota",
-	filename: "mtk_plpath_utils_ota",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12607,7 +12607,7 @@ sh_binary {
 	name: "muxreport",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/muxreport",
-	filename: "muxreport",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12615,7 +12615,7 @@ sh_binary {
 	name: "netdagent",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/netdagent",
-	filename: "netdagent",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12623,7 +12623,7 @@ sh_binary {
 	name: "netdc",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/netdc",
-	filename: "netdc",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12631,7 +12631,7 @@ sh_binary {
 	name: "nvram_daemon",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/nvram_daemon",
-	filename: "nvram_daemon",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12639,7 +12639,7 @@ sh_binary {
 	name: "paytrigger_test",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/paytrigger_test",
-	filename: "paytrigger_test",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12647,7 +12647,7 @@ sh_binary {
 	name: "pnpmgr",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/pnpmgr",
-	filename: "pnpmgr",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12655,7 +12655,7 @@ sh_binary {
 	name: "rcs_volte_stack",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/rcs_volte_stack",
-	filename: "rcs_volte_stack",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12663,7 +12663,7 @@ sh_binary {
 	name: "recordevent",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/recordevent",
-	filename: "recordevent",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12671,7 +12671,7 @@ sh_binary {
 	name: "replayevent",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/replayevent",
-	filename: "replayevent",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12679,7 +12679,7 @@ sh_binary {
 	name: "rt5512_calibration",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/rt5512_calibration",
-	filename: "rt5512_calibration",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12687,7 +12687,7 @@ sh_binary {
 	name: "rttv",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/rttv",
-	filename: "rttv",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12695,7 +12695,7 @@ sh_binary {
 	name: "starter",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/starter",
-	filename: "starter",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12703,7 +12703,7 @@ sh_binary {
 	name: "storage_feature_cloudctl",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/storage_feature_cloudctl",
-	filename: "storage_feature_cloudctl",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12711,7 +12711,7 @@ sh_binary {
 	name: "stp_dump3",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/stp_dump3",
-	filename: "stp_dump3",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12719,7 +12719,7 @@ sh_binary {
 	name: "stroke",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/stroke",
-	filename: "stroke",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12727,7 +12727,7 @@ sh_binary {
 	name: "thermal",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/thermal",
-	filename: "thermal",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12735,7 +12735,7 @@ sh_binary {
 	name: "thermal_manager",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/thermal_manager",
-	filename: "thermal_manager",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12743,7 +12743,7 @@ sh_binary {
 	name: "thermalloadalgod",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/thermalloadalgod",
-	filename: "thermalloadalgod",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12751,7 +12751,7 @@ sh_binary {
 	name: "tran_ihh",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/tran_ihh",
-	filename: "tran_ihh",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12759,7 +12759,7 @@ sh_binary {
 	name: "tran_ihh_cloudctl",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/tran_ihh_cloudctl",
-	filename: "tran_ihh_cloudctl",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12767,7 +12767,7 @@ sh_binary {
 	name: "tran_ocp",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/tran_ocp",
-	filename: "tran_ocp",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12775,7 +12775,7 @@ sh_binary {
 	name: "tran_tinymix",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/tran_tinymix",
-	filename: "tran_tinymix",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12783,7 +12783,7 @@ sh_binary {
 	name: "tranlog",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/tranlog",
-	filename: "tranlog",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12791,7 +12791,7 @@ sh_binary {
 	name: "tranlogconfig",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/tranlogconfig",
-	filename: "tranlogconfig",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12799,7 +12799,7 @@ sh_binary {
 	name: "v3avpud",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/v3avpud",
-	filename: "v3avpud",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12807,7 +12807,7 @@ sh_binary {
 	name: "verify_para",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/verify_para",
-	filename: "verify_para",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12815,7 +12815,7 @@ sh_binary {
 	name: "volte_imcb",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/volte_imcb",
-	filename: "volte_imcb",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12823,7 +12823,7 @@ sh_binary {
 	name: "volte_imsm_93",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/volte_imsm_93",
-	filename: "volte_imsm_93",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12831,7 +12831,7 @@ sh_binary {
 	name: "volte_md_status",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/volte_md_status",
-	filename: "volte_md_status",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12839,7 +12839,7 @@ sh_binary {
 	name: "volte_rcs_ua",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/volte_rcs_ua",
-	filename: "volte_rcs_ua",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12847,7 +12847,7 @@ sh_binary {
 	name: "volte_stack",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/volte_stack",
-	filename: "volte_stack",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12855,7 +12855,7 @@ sh_binary {
 	name: "volte_ua",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/volte_ua",
-	filename: "volte_ua",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12863,7 +12863,7 @@ sh_binary {
 	name: "wfca",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/wfca",
-	filename: "wfca",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12871,7 +12871,7 @@ sh_binary {
 	name: "wlan_assistant",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/wlan_assistant",
-	filename: "wlan_assistant",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12879,7 +12879,7 @@ sh_binary {
 	name: "wmt_launcher",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/wmt_launcher",
-	filename: "wmt_launcher",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12887,7 +12887,7 @@ sh_binary {
 	name: "wmt_loader",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/wmt_loader",
-	filename: "wmt_loader",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
@@ -12895,7 +12895,7 @@ sh_binary {
 	name: "wpa_cli",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/wpa_cli",
-	filename: "wpa_cli",
+	filename_from_src: true,
 	soc_specific: true,
 }
 
