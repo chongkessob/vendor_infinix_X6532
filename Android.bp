@@ -16,10 +16,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/lib/libmedia_codeclist.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 }
 
@@ -32,10 +32,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/lib/libstagefright_aidl_bufferpool2.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 }
 
@@ -48,10 +48,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/lib/libstagefright_bufferpool@2.0.1.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 }
 
@@ -64,10 +64,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/lib/libstagefright_codecbase.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 }
 
@@ -80,10 +80,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/lib/libstagefright_framecapture_utils.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 }
 
@@ -96,10 +96,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/lib/libstagefright_surface_utils.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 }
 
@@ -112,10 +112,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/arm.graphics-V1-ndk_platform.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -129,10 +129,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/audio_common-aidl-cpp.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -146,10 +146,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/audioclient-types-aidl-cpp.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -163,10 +163,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/egl/libGLES_mali.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "egl",
 	prefer: true,
 	soc_specific: true,
@@ -181,10 +181,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/egl/libGLES_meow.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "egl",
 	prefer: true,
 	soc_specific: true,
@@ -199,10 +199,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/egl/libMEOW_data.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "egl",
 	prefer: true,
 	soc_specific: true,
@@ -217,10 +217,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/egl/libMEOW_gift.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "egl",
 	prefer: true,
 	soc_specific: true,
@@ -235,10 +235,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/egl/libMEOW_qt.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "egl",
 	prefer: true,
 	soc_specific: true,
@@ -253,10 +253,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/egl/libMEOW_trace.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "egl",
 	prefer: true,
 	soc_specific: true,
@@ -271,10 +271,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/fake_serial_yuv_IdxMgr.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -288,10 +288,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/fake_serial_yuv_tuning.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -305,10 +305,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/framework-permission-aidl-cpp.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -322,10 +322,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/gc08a8_mipi_raw_IdxMgr.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -339,10 +339,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/gc08a8_mipi_raw_tuning.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -356,10 +356,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/gc13a0_mipi_raw_IdxMgr.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -373,10 +373,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/gc13a0_mipi_raw_tuning.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -390,10 +390,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hi846_mipi_raw_IdxMgr.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -407,10 +407,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hi846_mipi_raw_tuning.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -424,10 +424,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.audio.effect@6.0-impl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -442,10 +442,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.audio.effect@7.0-impl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -460,10 +460,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -478,10 +478,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.bluetooth.audio@2.1-impl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -496,10 +496,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -514,10 +514,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.renderscript@1.0-impl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -532,10 +532,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.thermal@1.0-impl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -550,10 +550,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.thermal@2.0-impl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -568,10 +568,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/audio.bluetooth.default.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -586,10 +586,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/audio.primary.default.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -604,10 +604,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/audio.primary.mt6768.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -622,10 +622,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/audio.r_submix.default.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -640,10 +640,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/audio.r_submix.mt6768.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -658,10 +658,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/audio.usb.default.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -676,10 +676,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/audio_policy.stub.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -694,10 +694,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/face.default.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -712,10 +712,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/focal_fingerprint.default.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -730,10 +730,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/fpsensor_fingerprint.default.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -748,10 +748,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/gatekeeper.default.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -766,10 +766,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/gatekeeper.trustonic.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -784,10 +784,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/gf_fingerprint.default.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -802,10 +802,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/gps.default.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -820,10 +820,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/gralloc.default.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -838,10 +838,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/hwcomposer.mt6768.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -856,10 +856,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/kmsetkey.default.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -874,10 +874,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/kmsetkey.trustonic.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -892,10 +892,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/libMcGatekeeper.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -910,10 +910,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/libSoftGatekeeper.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -928,10 +928,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/lights.mt6768.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -946,10 +946,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/local_time.default.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -964,10 +964,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/paytrigger.trustonic.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -982,10 +982,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/power.default.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -1000,10 +1000,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/sensors.mt6768.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -1018,10 +1018,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/thermal_hal.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -1036,10 +1036,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -1054,10 +1054,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -1072,10 +1072,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -1090,10 +1090,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -1108,10 +1108,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -1126,10 +1126,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -1144,10 +1144,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -1162,10 +1162,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -1180,10 +1180,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -1198,10 +1198,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.mediatek.hardware.pq@2.15-impl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -1216,10 +1216,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -1234,10 +1234,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/vibrator.default.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -1252,10 +1252,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/vibrator.mt6768.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
@@ -1270,10 +1270,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/lbs_hidl_service-impl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1287,10 +1287,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/lib3a.ae.core.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1304,10 +1304,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/lib3a.ae.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1321,10 +1321,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/lib3a.af.core.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1338,10 +1338,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/lib3a.af.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1355,10 +1355,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/lib3a.awb.core.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1372,10 +1372,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/lib3a.awb.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1389,10 +1389,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/lib3a.ccudrv.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1406,10 +1406,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/lib3a.ccuif.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1423,10 +1423,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/lib3a.flash.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1440,10 +1440,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/lib3a.gma.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1457,10 +1457,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/lib3a.lce.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1474,10 +1474,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/lib3a.log.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1491,10 +1491,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libDR.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1508,10 +1508,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libDefaultFpsActor.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1525,10 +1525,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libFrameRecord.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1542,10 +1542,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libHEVCdec_sa.ca7.android.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1559,10 +1559,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libImageEval.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1576,10 +1576,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libJpgEncPipe.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1593,10 +1593,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libMcClient.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1610,10 +1610,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libMtkOmxCore.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1627,10 +1627,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libMtkOmxGsmDec.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1644,10 +1644,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libMtkOmxMp3Dec.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1661,10 +1661,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libMtkSpeechEnh.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1678,10 +1678,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libNoFpsActor.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1695,10 +1695,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libNvLutEffect.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1712,10 +1712,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libOpenCL.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1729,10 +1729,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libQstAlgo_v632.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1746,10 +1746,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libSQLiteModule_VER_ALL.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1763,10 +1763,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libSonyIMX230PdafLibrary.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1780,10 +1780,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libSonyIMX230PdafLibraryWrapper.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1797,10 +1797,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libSonyIMX338PdafLibrary.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1814,10 +1814,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libSonyIMX338PdafLibraryWrapper.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1831,10 +1831,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libSonyIMX386PdafLibrary.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1848,10 +1848,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libSonyIMX386PdafLibraryWrapper.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1865,10 +1865,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libSonyIMX519PdafLibrary.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1882,10 +1882,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libSonyIMX519PdafLibraryWrapper.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1899,10 +1899,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libTEECommon.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1916,10 +1916,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libTranASD.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1933,10 +1933,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libTranArcFilter.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1950,10 +1950,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libTranArcHDR.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1967,10 +1967,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libTranArcNightHawk.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1984,10 +1984,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libTranAutoColorLevel.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2001,10 +2001,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libTranColorEnhance.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2018,10 +2018,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libTranDenoise.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2035,10 +2035,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libTranExtImgProc.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2052,10 +2052,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libTranExtImgThread.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2069,10 +2069,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libTranEyeDetect.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2086,10 +2086,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libTranFaceDetectCoordinate.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2103,10 +2103,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libTranGenderDetect.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2120,10 +2120,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libTranITDFaceBeauty.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2137,10 +2137,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libTranMSFilter.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2154,10 +2154,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libTranPlatHW.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2171,10 +2171,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libTranSTSingleBlur.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2188,10 +2188,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libTranSlimBody.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2205,10 +2205,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libTranSmartDetection.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2222,10 +2222,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libTran_Log.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2239,10 +2239,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libTranfacFunction.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2256,10 +2256,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libTranfacOverlay.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2273,10 +2273,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libWaterMarkProc.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2290,10 +2290,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/lib_bsscore.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2307,10 +2307,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/lib_iir.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2324,10 +2324,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/lib_speech_enh.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2341,10 +2341,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libaacvibrator.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2358,10 +2358,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libaal_cust.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2375,10 +2375,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libaal_key.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2392,10 +2392,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libaal_mtk.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2409,10 +2409,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libaalservice.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2426,10 +2426,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libabfadp.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2443,10 +2443,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libacdk.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2460,10 +2460,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libadpcmdec_mtk.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2477,10 +2477,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libaedv.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2494,10 +2494,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libalsautils.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2511,10 +2511,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libamipengine.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2528,10 +2528,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libapmonitor_vendor.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2545,10 +2545,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libappgamepq.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2562,10 +2562,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libapu_mdw.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2579,10 +2579,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libapusys.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2596,10 +2596,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libapusys_edma.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2613,10 +2613,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libarcsoft_high_dynamic_range.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2630,10 +2630,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libarcsoft_night_hawk.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2647,10 +2647,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libarmnn.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2664,10 +2664,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libarmnn_ndk.mtk.vndk.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2681,10 +2681,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libasn1c_core.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2698,10 +2698,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libasn1c_mapi.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2715,10 +2715,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libasn1c_mdmi.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2732,10 +2732,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libaudio_param_parser-vnd.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2749,10 +2749,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libaudioclient_aidl_conversion.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2766,10 +2766,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libaudiocompensationfilter_vendor.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2783,10 +2783,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libaudiocompensationfilterc.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2800,10 +2800,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libaudiocomponentengine_vendor.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2817,10 +2817,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libaudiocomponentenginec.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2834,10 +2834,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libaudiocustparam_vendor.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2851,10 +2851,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libaudiodcrflt_vendor.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2868,10 +2868,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libaudiofmtconv.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2885,10 +2885,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libaudiofoundation.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2902,10 +2902,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libaudioloudc.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2919,10 +2919,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libaudioprimarydevicehalifclient.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2936,10 +2936,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libaudiotoolkit_vendor.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2953,10 +2953,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libaurisysdemo.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2970,10 +2970,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libawinic_mtk_aurisys.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -2987,10 +2987,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libbessound_hd_mtk_vendor.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3004,10 +3004,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libbinderdebug.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3021,10 +3021,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libblisrc32_vendor.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3038,10 +3038,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libbluetooth_audio_session.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3055,10 +3055,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libbluetooth_audio_session_mediatek.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3072,10 +3072,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libbluetooth_hw_test.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3089,10 +3089,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libbluetooth_mtk.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3106,10 +3106,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libbluetooth_mtk_pure.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3123,10 +3123,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libbluetooth_relayer.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3140,10 +3140,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libbluetoothem_mtk.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3157,10 +3157,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libbt-vendor.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3174,10 +3174,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libbwc.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3191,10 +3191,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcalculatesharpness.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3208,10 +3208,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcam.chdr.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3225,10 +3225,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcam.feature_utils.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3242,10 +3242,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcam.hal3a.cctsvr.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3259,10 +3259,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcam.hal3a.log.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3276,10 +3276,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcam.hal3a.v3.dng.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3293,10 +3293,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcam.hal3a.v3.lsctbl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3310,10 +3310,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcam.hal3a.v3.nvram.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3327,10 +3327,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcam.hal3a.v3.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3344,10 +3344,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcam.halisp.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3361,10 +3361,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcam.halsensor.hwintegration.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3378,10 +3378,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcam.halsensor.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3395,10 +3395,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcam.iopipe.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3412,10 +3412,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcam.lcs.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3429,10 +3429,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcam.pdtblgen.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3446,10 +3446,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcam.utils.sensorprovider.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3463,10 +3463,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcam.vhdr.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3480,10 +3480,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcam3_tranelapsedtime.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3497,10 +3497,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcam3_tranpriorityctrl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3514,10 +3514,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcam3_transerverengine.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3531,10 +3531,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcamalgo.3dnr.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3548,10 +3548,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcamalgo.abf.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3565,10 +3565,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcamalgo.dngop.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3582,10 +3582,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcamalgo.eis.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3599,10 +3599,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcamalgo.fdft.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3616,10 +3616,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcamalgo.flicker.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3633,10 +3633,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcamalgo.fsc.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3650,10 +3650,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcamalgo.gyro.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3667,10 +3667,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcamalgo.ispfeature.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3684,10 +3684,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcamalgo.lmv.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3701,10 +3701,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcamalgo.lsc.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3718,10 +3718,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcamalgo.mfnr.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3735,10 +3735,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcamalgo.nr.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3752,10 +3752,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcamalgo.platform.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3769,10 +3769,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcamalgo.platform2.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3786,10 +3786,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcamalgo.utility.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3803,10 +3803,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcamalgo.warp.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3820,10 +3820,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcamdrv_isp.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3837,10 +3837,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcamdrv_tuning_mgr.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3854,10 +3854,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcamdrv_twin.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3871,10 +3871,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcamera2ndk_vendor.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3888,10 +3888,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcameracustom.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3905,10 +3905,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcapctrl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3922,10 +3922,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcares_naptr.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3939,10 +3939,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcarrierconfig.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3956,10 +3956,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libccci_util.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3973,10 +3973,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcharon-ss.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3990,10 +3990,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcmdl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4007,10 +4007,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcmdl_ndk.mtk.vndk.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4024,10 +4024,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcodec2_hidl@1.1.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4041,10 +4041,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcodec2_hidl@1.2.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4058,10 +4058,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcodec2_hidl_plugin.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4075,10 +4075,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcodec2_mtk_c2store.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4092,10 +4092,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcodec2_mtk_vdec.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4109,10 +4109,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcodec2_mtk_venc.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4126,10 +4126,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcodec2_soft_common.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4143,10 +4143,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcodec2_soft_mtk_alacdec.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4160,10 +4160,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcodec2_soft_mtk_apedec.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4177,10 +4177,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcodec2_soft_mtk_imaadpcmdec.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4194,10 +4194,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcodec2_soft_mtk_mp3dec.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4211,10 +4211,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcodec2_soft_mtk_msadpcmdec.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4228,10 +4228,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcodec2_vpp_qt_plugin.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4245,10 +4245,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcodec2_vpp_rs_plugin.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4262,10 +4262,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcolorenhance_32.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4279,10 +4279,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcolorlevel.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4296,10 +4296,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcomposer_ext.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4313,10 +4313,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libconnfem.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4330,10 +4330,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcppbor_external.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4347,10 +4347,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcppcose_rkp.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4364,10 +4364,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcrypto-mdapp.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4381,10 +4381,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcs_cs35l45_intf.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4398,10 +4398,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcurl-md.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4415,10 +4415,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcurl_xcap_md.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4432,10 +4432,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcustom_nvram.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4449,10 +4449,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcvsd_mtk.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4466,10 +4466,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libdecrypt.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4483,10 +4483,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libdenoise.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4500,10 +4500,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libdeviceauthen.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4517,10 +4517,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libdpframework.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4534,10 +4534,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libdre.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4551,10 +4551,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libdts-eagle-shared.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4568,10 +4568,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libdtsdsec.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4585,10 +4585,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libdynamiclog.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4602,10 +4602,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libeffecthal.base.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4619,10 +4619,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libeyedetector.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4636,10 +4636,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libfacedetector.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4653,10 +4653,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libfacesattribute.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4670,10 +4670,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libfeature.face.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4687,10 +4687,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libfeature.stereo.provider.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4704,10 +4704,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libfeature_3dnr.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4721,10 +4721,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libfeature_fsc.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4738,10 +4738,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libfeature_lmv.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4755,10 +4755,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libfeature_rss.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4772,10 +4772,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libfeatureiodrv_mem.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4789,10 +4789,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libfft_vendor.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4806,10 +4806,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libfgauge_gm30.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4823,10 +4823,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libfile_op.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4840,10 +4840,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libflatbuffers-cpp.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4857,10 +4857,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libforkexecwrap.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4874,10 +4874,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libformatter.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4891,10 +4891,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libfp_ext_svc2.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4908,10 +4908,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libgamehdr.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4925,10 +4925,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libged.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4942,10 +4942,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libgf_ca.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4959,10 +4959,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libgf_factory_test.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4976,10 +4976,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libgf_hal.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4993,10 +4993,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libgoodixhwfingerprint.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5010,10 +5010,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libgpu_aux.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5027,10 +5027,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libgpud.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5044,10 +5044,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libgralloc_extra.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5061,10 +5061,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libgralloc_metadata.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5078,10 +5078,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libgralloctypes_mtk.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5095,10 +5095,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libgz_gp_client.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5112,10 +5112,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libgz_uree.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5129,10 +5129,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libh264dec_customize.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5146,10 +5146,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libh264dec_sa.ca7.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5163,10 +5163,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libh264dec_sd.ca7.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5180,10 +5180,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libh264dec_se.ca7.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5197,10 +5197,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libh264enc_sa.ca7.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5214,10 +5214,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libheichal.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5231,10 +5231,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libhevce_sb.ca7.android.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5248,10 +5248,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libhwc2onfbadapter.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5265,10 +5265,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libhwm.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5282,10 +5282,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libhydra.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5299,10 +5299,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libhyperion_hap_ca.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5316,10 +5316,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libicd_decoder.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5333,10 +5333,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libifcutils_mtk.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5350,10 +5350,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libimageio.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5367,10 +5367,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libimageio_plat_drv.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5384,10 +5384,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libimageio_plat_pipe.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5401,10 +5401,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libimsg_log.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5418,10 +5418,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libion_mtk.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5435,10 +5435,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libion_ulit.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5452,10 +5452,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libipsec_ims_shr.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5469,10 +5469,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libitdfacebeauty.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5486,10 +5486,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libjpeg-alpha-oal_vendor.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5503,10 +5503,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libjpeg-alpha_vendor.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5520,10 +5520,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libkeymaster4.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5537,10 +5537,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libkeymaster41.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5554,10 +5554,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libkeymaster4_1support.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5571,10 +5571,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libkeystore-engine-wifi-hidl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5588,10 +5588,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libkeystore-wifi-hidl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5605,10 +5605,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libkmsetkey.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5622,10 +5622,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libksensor.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5639,10 +5639,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libladder.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5656,10 +5656,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/liblpcnr.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5673,10 +5673,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmfllcore.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5690,10 +5690,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libminiui.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5707,10 +5707,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libminizip.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5724,10 +5724,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmipc.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5741,10 +5741,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmmagent.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5758,10 +5758,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmml.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5775,10 +5775,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmmprofile.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5792,10 +5792,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmnetlink_v104.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5809,10 +5809,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmnl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5826,10 +5826,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmp3dec_mtk.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5843,10 +5843,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmp4enc_sa.ca7.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5860,10 +5860,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmp4enc_xa.ca7.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5877,10 +5877,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmpbase.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5894,10 +5894,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmsbc_mtk.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5911,10 +5911,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmsnr.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5928,10 +5928,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtcloader.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5945,10 +5945,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtk-fusion-ril-prop-vsim.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5962,10 +5962,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtk-ril.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5979,10 +5979,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtk_bsg.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5996,10 +5996,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtk_drvb.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6013,10 +6013,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkares.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6030,10 +6030,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam.eventcallback.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6047,10 +6047,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam.featurepipe.capture.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6064,10 +6064,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam.featurepipe.streaming.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6081,10 +6081,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam.featurepipe.vsdof_util.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6098,10 +6098,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam.logicalmodule.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6115,10 +6115,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_3rdparty.core.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6132,10 +6132,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_3rdparty.customer.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6149,10 +6149,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_3rdparty.mtk.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6166,10 +6166,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_3rdparty.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6183,10 +6183,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_3rdparty.thread.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6200,10 +6200,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_calibration_convertor.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6217,10 +6217,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_calibration_provider.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6234,10 +6234,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_debugutils.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6251,10 +6251,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_device3_app.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6268,10 +6268,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_device3_hal.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6285,10 +6285,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_device3_hidl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6302,10 +6302,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_device3_hidlutils.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6319,10 +6319,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_device3_utils.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6336,10 +6336,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_devicesessionpolicy.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6353,10 +6353,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_diputils.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6370,10 +6370,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_exif.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6387,10 +6387,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_fdvt.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6404,10 +6404,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_featurepolicy.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6421,10 +6421,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_featureutils.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6438,10 +6438,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_fwkutils.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6455,10 +6455,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_grallocutils.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6472,10 +6472,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_hwnode.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6489,10 +6489,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_hwutils.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6506,10 +6506,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_imem.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6523,10 +6523,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_imgbuf.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6540,10 +6540,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_metadata.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6557,10 +6557,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_metastore.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6574,10 +6574,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_modulefactory_aaa.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6591,10 +6591,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_modulefactory_custom.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6608,10 +6608,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_modulefactory_drv.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6625,10 +6625,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_modulefactory_utils.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6642,10 +6642,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_modulehelper.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6659,10 +6659,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_pipeline.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6676,10 +6676,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_pipeline_fbm.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6693,10 +6693,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_pipelinemodel.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6710,10 +6710,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_pipelinemodel_adapter.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6727,10 +6727,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_pipelinemodel_capture.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6744,10 +6744,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_pipelinemodel_isp.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6761,10 +6761,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_pipelinemodel_session.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6778,10 +6778,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_pipelinemodel_utils.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6795,10 +6795,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_pipelinemodel_zsl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6812,10 +6812,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_pipelinepolicy-aov.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6829,10 +6829,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_pipelinepolicy-security.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6846,10 +6846,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_pipelinepolicy-smvr.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6863,10 +6863,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_pipelinepolicy.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6880,10 +6880,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_pipelinepolicy_factory.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6897,10 +6897,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_prerelease.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6914,10 +6914,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_rsc.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6931,10 +6931,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_scenariorecorder.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6948,10 +6948,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_stdutils.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6965,10 +6965,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_streamutils.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6982,10 +6982,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_synchelper.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -6999,10 +6999,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_sysutils.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7016,10 +7016,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_tuning_utils.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7033,10 +7033,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcam_ulog.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7050,10 +7050,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkconfig.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7067,10 +7067,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkconfigutils.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7084,10 +7084,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkcutils.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7101,10 +7101,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkhardware_legacy.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7118,10 +7118,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkisp_metadata.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7135,10 +7135,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtklimiter_vendor.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7152,10 +7152,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkmipc-ril.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7169,10 +7169,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtknetcap.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7186,10 +7186,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtknetutils.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7203,10 +7203,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkperf_client_vendor.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7220,10 +7220,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkproperty.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7237,10 +7237,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkrillog.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7254,10 +7254,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkrilutils.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7271,10 +7271,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkshifter_vendor.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7288,10 +7288,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkspparser.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7305,10 +7305,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtksysutils.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7322,10 +7322,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtktinyxml.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7339,10 +7339,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmtkutils.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7356,10 +7356,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmvpu_config_data.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7373,10 +7373,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libneuroeara.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7390,10 +7390,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libneuropilot_hal_utils.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7407,10 +7407,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libnir_neon_driver.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7424,10 +7424,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libnir_neon_driver_ndk.mtk.vndk.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7441,10 +7441,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libnvram.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7458,10 +7458,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libnvram_sec.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7475,10 +7475,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libnwk_opt_halwrap_vendor.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7492,10 +7492,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libnxp_extamp_intf.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7509,10 +7509,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libperfctl_vendor.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7526,10 +7526,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libpkm.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7543,10 +7543,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libpnpmgr.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7560,10 +7560,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libpower_timer.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7577,10 +7577,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libpowerhal.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7594,10 +7594,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libpowerhalwrap_vendor.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7611,10 +7611,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libpq_cust_base.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7628,10 +7628,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libpq_prot.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7645,10 +7645,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libpqframework.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7662,10 +7662,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libpqparamparser.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7679,10 +7679,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libpqpconfig.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7696,10 +7696,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libratconfig.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7713,10 +7713,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/librcs_interface.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7730,10 +7730,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/librcs_volte_core.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7747,10 +7747,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/librgbwlightsensor.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7764,10 +7764,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/librilfusion.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7781,10 +7781,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/librt_extamp_intf.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7798,10 +7798,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libruy.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7815,10 +7815,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsensor_custom.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7832,10 +7832,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsensorndkbridge.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7849,10 +7849,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsfplugin_ccodec_utils.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7866,10 +7866,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libshmemcompat.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7883,10 +7883,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libshmemutil.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7900,10 +7900,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsimaka.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7917,10 +7917,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsimlock.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7934,10 +7934,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsimmelock.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7951,10 +7951,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsmartdetector.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7968,10 +7968,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsoft_attestation_cert.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -7985,10 +7985,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libspeech_enh_lib.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8002,10 +8002,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libspeechparser_vendor.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8019,10 +8019,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libssl-mdapp.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8036,10 +8036,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libst_mobile.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8053,10 +8053,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libstagefright_bufferpool@2.0.1.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8070,10 +8070,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libstagefright_softomx_plugin.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8087,10 +8087,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libstagefrighthw.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8104,10 +8104,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libstblur_capture_api.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8121,10 +8121,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libstereoinfoaccessor_vsdof.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8138,10 +8138,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libstfaceunlockppl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8155,10 +8155,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libstorage_otp.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8172,10 +8172,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libstrongswan.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8189,10 +8189,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsysenv.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8206,10 +8206,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libtf_asd_lib.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8223,10 +8223,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libtflite_mtk.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8240,10 +8240,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libtflite_native_gainference.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8257,10 +8257,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libtflite_native_inference.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8274,10 +8274,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libthermalalgo.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8291,10 +8291,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libthha.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8308,10 +8308,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libtneclient.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8325,10 +8325,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libtnev.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8342,10 +8342,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libtranDatacenter.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8359,10 +8359,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libtrancamJsonConvertor.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8376,10 +8376,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libtrancam_filelockmgr.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8393,10 +8393,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libtrancrypto.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8410,10 +8410,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libtranlog.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8427,10 +8427,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libtranradionet_mtk.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8444,10 +8444,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libtranslator_mapi_v3.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8461,10 +8461,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libtranslator_mdmi_v2.8.2.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8478,10 +8478,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libtranslator_utils.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8495,10 +8495,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libtranssion_bodybeauty.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8512,10 +8512,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libtranssion_forkexecwrap.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8529,10 +8529,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libtrm.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8546,10 +8546,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libtvrfy.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8563,10 +8563,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libudf.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8580,10 +8580,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libutinterface_custom_md.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8597,10 +8597,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libutinterface_md.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8614,10 +8614,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libvcodec_oal.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8631,10 +8631,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libvcodec_utility_v3a.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8648,10 +8648,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libvcodecdrv_header_stub.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8665,10 +8665,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libvcodecdrv_v3a.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8682,10 +8682,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8699,10 +8699,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libverno.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8716,10 +8716,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libvia-ril.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8733,10 +8733,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libviamipc-ril.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8750,10 +8750,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libvibrator.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8767,10 +8767,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libvolte_core_shr.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8784,10 +8784,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libvolte_xdmc_shr.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8801,10 +8801,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libvp8dec_sa.ca7.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8818,10 +8818,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libvp8enc_sa.ca7.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8835,10 +8835,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libvp9dec_sa.ca7.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8852,10 +8852,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libvpu5.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8869,10 +8869,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libvpudv3a_vcodec.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8886,10 +8886,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libvpx.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8903,10 +8903,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libvt_custom.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8920,10 +8920,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libwapi.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8937,10 +8937,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libwifi-hal.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8954,10 +8954,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libwifitest.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8971,10 +8971,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libwo.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -8988,10 +8988,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libwpa_client.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9005,10 +9005,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libwpfa.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9022,10 +9022,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libwvhidl.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9039,10 +9039,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libz_stable.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9056,10 +9056,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/mediacas/libclearkeycasplugin.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "mediacas",
 	prefer: true,
 	soc_specific: true,
@@ -9074,10 +9074,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "mediadrm",
 	prefer: true,
 	soc_specific: true,
@@ -9092,10 +9092,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/mediadrm/libmockdrmcryptoplugin.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "mediadrm",
 	prefer: true,
 	soc_specific: true,
@@ -9110,10 +9110,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/mediadrm/libwvdrmengine.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "mediadrm",
 	prefer: true,
 	soc_specific: true,
@@ -9128,10 +9128,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/meta_wifi_data.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9145,10 +9145,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/mt6768/libdpframework.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "mt6768",
 	prefer: true,
 	soc_specific: true,
@@ -9163,10 +9163,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/mt6768/libmtk_drvb.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "mt6768",
 	prefer: true,
 	soc_specific: true,
@@ -9181,10 +9181,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/mt6768/libnir_neon_driver.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "mt6768",
 	prefer: true,
 	soc_specific: true,
@@ -9199,10 +9199,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/mt6768/libpq_prot.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "mt6768",
 	prefer: true,
 	soc_specific: true,
@@ -9217,10 +9217,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "mtkcam",
 	prefer: true,
 	soc_specific: true,
@@ -9235,10 +9235,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/nwk_opt_imp.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9252,10 +9252,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/pblcgc08a8_mipi_raw_IdxMgr.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9269,10 +9269,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/pblcgc08a8_mipi_raw_tuning.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9286,10 +9286,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/pblcgc13a0_mipi_raw_IdxMgr.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9303,10 +9303,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/pblcgc13a0_mipi_raw_tuning.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9320,10 +9320,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/pblchi846_mipi_raw_IdxMgr.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9337,10 +9337,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/pblchi846_mipi_raw_tuning.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9354,10 +9354,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/pblcs5k3l6_mipi_raw_IdxMgr.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9371,10 +9371,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/pblcs5k3l6_mipi_raw_tuning.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9388,10 +9388,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/s5k3l6_mipi_raw_IdxMgr.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9405,10 +9405,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/s5k3l6_mipi_raw_tuning.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9422,10 +9422,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/shared-file-region-aidl-cpp.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9439,10 +9439,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/soundfx/libaudiopreprocessing_mtk.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "soundfx",
 	prefer: true,
 	soc_specific: true,
@@ -9457,10 +9457,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/soundfx/libdtsaudio.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "soundfx",
 	prefer: true,
 	soc_specific: true,
@@ -9475,10 +9475,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/soundfx/libdynproc.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "soundfx",
 	prefer: true,
 	soc_specific: true,
@@ -9493,10 +9493,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/soundfx/libhapticgenerator.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	relative_install_path: "soundfx",
 	prefer: true,
 	soc_specific: true,
@@ -9511,10 +9511,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.aac.hardware.richtap.vibrator-V1-ndk_platform.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9528,10 +9528,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.fpsensor.hardware.fpsensorhidlsvc@2.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9545,10 +9545,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.aee@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9562,10 +9562,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.aee@1.1.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9579,10 +9579,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.apmonitor@2.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9596,10 +9596,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.atci@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9613,10 +9613,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.audio@6.1.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9630,10 +9630,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.audio@7.1.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9647,10 +9647,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9664,10 +9664,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9681,10 +9681,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.camera.atms@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9698,10 +9698,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9715,10 +9715,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9732,10 +9732,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.camera.frhandler@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9749,10 +9749,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.camera.isphal@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9766,10 +9766,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.camera.isphal@1.1.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9783,10 +9783,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.camera.lomoeffect@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9800,10 +9800,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.camera.postproc@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9817,10 +9817,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.camera.security@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9834,10 +9834,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.composer_ext@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9851,10 +9851,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.dmc@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9868,10 +9868,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.dmc@1.1.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9885,10 +9885,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.dmc@1.2.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9902,10 +9902,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.engineermode@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9919,10 +9919,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.engineermode@1.1.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9936,10 +9936,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.engineermode@1.2.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9953,10 +9953,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.engineermode@1.3.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9970,10 +9970,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -9987,10 +9987,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10004,10 +10004,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.lbs@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10021,10 +10021,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.log@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10038,10 +10038,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.mdmonitor@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10055,10 +10055,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.mmagent@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10072,10 +10072,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.mmagent@1.1.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10089,10 +10089,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10106,10 +10106,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.1.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10123,10 +10123,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.2.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10140,10 +10140,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.3.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10157,10 +10157,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.4.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10174,10 +10174,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.5.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10191,10 +10191,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.6.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10208,10 +10208,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.mtkpower@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10225,10 +10225,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.mtkpower@1.1.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10242,10 +10242,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.mtkpower@1.2.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10259,10 +10259,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.mtkradioex@2.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10276,10 +10276,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.mtkradioex@3.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10293,10 +10293,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10310,10 +10310,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10327,10 +10327,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.1.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10344,10 +10344,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.nwk_opt@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10361,10 +10361,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.paytrigger@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10378,10 +10378,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.power@1.1.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10395,10 +10395,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.power@2.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10412,10 +10412,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10429,10 +10429,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.1.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10446,10 +10446,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.10.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10463,10 +10463,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.11.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10480,10 +10480,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.12.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10497,10 +10497,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.13.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10514,10 +10514,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.14.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10531,10 +10531,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.15.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10548,10 +10548,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.2.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10565,10 +10565,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.3.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10582,10 +10582,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.4.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10599,10 +10599,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.5.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10616,10 +10616,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.6.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10633,10 +10633,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.7.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10650,10 +10650,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.8.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10667,10 +10667,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.9.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10684,10 +10684,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.rcs@2.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10701,10 +10701,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.tranHwInfo@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10718,10 +10718,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10735,10 +10735,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.transsion.hardware.security.deviceauthen@2.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10752,10 +10752,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.transsion.hardware.security.hap@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10769,10 +10769,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.transsion.hardware.security.trancriticalparavfy@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10786,10 +10786,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.transsion.hardware.tne.tneengine@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10803,10 +10803,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.transsion.hardware.trancam.trancamserver@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10820,10 +10820,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.transsion.hardware.trandatacenter@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10837,10 +10837,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.transsion.hardware.tranfacaidl-V1-ndk_platform.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10854,10 +10854,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.transsion.hardware.tranlog@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10871,10 +10871,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.transsion.hardware.tranlogconfig@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10888,10 +10888,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.transsion.hardware.trannet-V1-ndk_platform.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10905,10 +10905,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.transsion.hardware.transtorage.storage@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10922,10 +10922,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.transsion.hardware.wifi.hostapd@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10939,10 +10939,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.transsion.performance.sched@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10956,10 +10956,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.trustonic.tee.tui@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10973,10 +10973,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.trustonic.tee@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -10990,10 +10990,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.trustonic.tee@1.1.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -11007,10 +11007,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/libarcsoft_chart_free_calibration.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11024,10 +11024,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/libarcsoft_dualcam_wt_calibration.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11041,10 +11041,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/libarcsoft_dualcam_wt_verification.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11058,10 +11058,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/libcalibverifyW_T.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11075,10 +11075,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/libged_sys.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11092,10 +11092,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/libgralloc_extra_sys.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11109,10 +11109,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/libsf_cpupolicy.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11126,10 +11126,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/libstagefright_wfd_mtk.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11143,10 +11143,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.mediatek.hardware.composer_ext-V1-ndk.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11160,10 +11160,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.mediatek.hardware.composer_ext@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11177,10 +11177,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.mediatek.hardware.mms@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11194,10 +11194,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.mediatek.hardware.mms@1.1.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11211,10 +11211,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.mediatek.hardware.mms@1.2.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11228,10 +11228,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.mediatek.hardware.mms@1.3.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11245,10 +11245,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.mediatek.hardware.mtkpower-V1-ndk.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11262,10 +11262,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.mediatek.hardware.mtkpower@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11279,10 +11279,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.mediatek.hardware.mtkpower@1.1.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11296,10 +11296,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.mediatek.hardware.mtkpower@1.2.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11313,10 +11313,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.mediatek.hardware.mtkradioex@3.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11330,10 +11330,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.mediatek.hardware.pq@2.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11347,10 +11347,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.mediatek.hardware.pq@2.1.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11364,10 +11364,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.mediatek.hardware.pq@2.2.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11381,10 +11381,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.mediatek.hardware.pq@2.3.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11398,10 +11398,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony-V1-ndk.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11415,10 +11415,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so"],
-			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -12898,4 +12898,3 @@ sh_binary {
 	filename_from_src: true,
 	soc_specific: true,
 }
-
