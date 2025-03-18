@@ -9,10 +9,6 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6532/proprietary/etc/audio_effects.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.conf \
     vendor/infinix/X6532/proprietary/etc/audio_effects.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.xml \
     vendor/infinix/X6532/proprietary/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_SYSTEM)/etc/seccomp_policy/mediacodec.policy \
-    vendor/infinix/X6532/proprietary/odm/etc/vintf/manifest_dsds.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_dsds.xml \
-    vendor/infinix/X6532/proprietary/odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_qsqs.xml \
-    vendor/infinix/X6532/proprietary/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_ss.xml \
-    vendor/infinix/X6532/proprietary/odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_tsts.xml \
     vendor/infinix/X6532/proprietary/system_ext/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_audio_policy_configuration.xml \
     vendor/infinix/X6532/proprietary/system_ext/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_in_audio_policy_configuration.xml \
     vendor/infinix/X6532/proprietary/system_ext/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_configuration.xml \
@@ -775,10 +771,6 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6532/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
     vendor/infinix/X6532/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
     vendor/infinix/X6532/proprietary/vendor/media/license.lic:$(TARGET_COPY_OUT_VENDOR)/media/license.lic \
-    vendor/infinix/X6532/proprietary/vendor/odm/etc/vintf/manifest_dsds.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_dsds.xml \
-    vendor/infinix/X6532/proprietary/vendor/odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_qsqs.xml \
-    vendor/infinix/X6532/proprietary/vendor/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_ss.xml \
-    vendor/infinix/X6532/proprietary/vendor/odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_tsts.xml \
     vendor/infinix/X6532/proprietary/vendor/res/images/lcd_test_00.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_00.png \
     vendor/infinix/X6532/proprietary/vendor/res/images/lcd_test_01.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_01.png \
     vendor/infinix/X6532/proprietary/vendor/res/images/lcd_test_02.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_02.png \
@@ -789,6 +781,12 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6532/proprietary/vendor/thh/ta/93feffccd8ca11e796c7c7a21acb4932.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/93feffccd8ca11e796c7c7a21acb4932.ta \
     vendor/infinix/X6532/proprietary/vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta \
     vendor/infinix/X6532/proprietary/vendor/thh/ta/df1edda8627911e980ae507b9d9a7e7d.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/df1edda8627911e980ae507b9d9a7e7d.ta
+
+ODM_MANIFEST_FILES += \
+    vendor/infinix/X6532/proprietary/odm/etc/vintf/manifest_dsds.xml\
+    vendor/infinix/X6532/proprietary/odm/etc/vintf/manifest_qsqs.xml\
+    vendor/infinix/X6532/proprietary/odm/etc/vintf/manifest_ss.xml\
+    vendor/infinix/X6532/proprietary/odm/etc/vintf/manifest_tsts.xml
 
 PRODUCT_PACKAGES += \
     libmedia_codeclist \
@@ -1467,7 +1465,6 @@ PRODUCT_PACKAGES += \
     NetworkStackResOverlay \
     TetheringResOverlay \
     com.transsion.tranfacsdk \
-    android.hardware.biometrics.fingerprint@2.1-service.xml \
     android.hardware.boot@1.2.xml \
     android.hardware.cas@1.2-service-lazy.xml \
     android.hardware.health@2.1.xml \
@@ -1475,7 +1472,6 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi.hostapd.xml \
     android.hardware.wifi.supplicant.xml \
     android.hardware.wifi@1.0-service.xml \
-    gnss-default.xml \
     gnss@2.1-service.xml \
     lbs_hidl_service@1.0.xml \
     lights-mtk-default.xml \
@@ -1502,7 +1498,6 @@ PRODUCT_PACKAGES += \
     aee_aedv \
     aee_dumpstatev \
     aeev \
-    applypatch \
     atcid \
     audiocmdservice_atci \
     autobt \
@@ -1514,12 +1509,10 @@ PRODUCT_PACKAGES += \
     chg_sence \
     chipinfo \
     dexecutor \
-    dmabuf_dump \
     dmc_core \
     doeapp-memtester \
     doeapp-sat \
     dtc_vendor \
-    dumpsys \
     em_hidl \
     epdg_wod \
     factory \
@@ -1529,21 +1522,13 @@ PRODUCT_PACKAGES += \
     gsm0710muxd \
     hostapd_cli \
     android.hardware.audio.service.mediatek \
-    android.hardware.biometrics.face@1.0-service.example \
-    android.hardware.biometrics.fingerprint@2.1-service \
     android.hardware.bluetooth@1.1-service-mediatek \
-    android.hardware.boot@1.2-service \
-    android.hardware.cas@1.2-service-lazy \
     android.hardware.drm@1.4-service-lazy.clearkey \
     android.hardware.drm@1.4-service-lazy.widevine \
-    android.hardware.gatekeeper@1.0-service \
     android.hardware.graphics.allocator@4.0-service-mediatek \
-    android.hardware.graphics.composer@2.1-service \
-    android.hardware.health@2.1-service \
     android.hardware.keymaster@4.1-service.trustonic \
     android.hardware.lights-service.mediatek \
     android.hardware.media.c2@1.2-mediatek \
-    android.hardware.media.omx@1.0-service \
     android.hardware.memtrack-service.mediatek \
     android.hardware.secure_element@1.2-service-mediatek \
     android.hardware.sensors@2.0-service.multihal-mediatek \

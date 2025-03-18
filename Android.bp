@@ -8,7 +8,7 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmedia_codeclist",
+	name: "vendor.libmedia_codeclist",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -25,7 +25,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libstagefright_aidl_bufferpool2",
+	name: "vendor.libstagefright_aidl_bufferpool2",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -42,7 +42,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libstagefright_bufferpool@2.0.1",
+	name: "vendor.libstagefright_bufferpool@2.0.1",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -59,7 +59,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libstagefright_codecbase",
+	name: "vendor.libstagefright_codecbase",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -76,7 +76,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libstagefright_framecapture_utils",
+	name: "vendor.libstagefright_framecapture_utils",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -93,7 +93,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libstagefright_surface_utils",
+	name: "vendor.libstagefright_surface_utils",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -110,7 +110,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "arm.graphics-V1-ndk_platform",
+	name: "vendor.arm.graphics-V1-ndk_platform",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -128,7 +128,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "audio_common-aidl-cpp",
+	name: "vendor.audio_common-aidl-cpp",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -146,7 +146,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "audioclient-types-aidl-cpp",
+	name: "vendor.audioclient-types-aidl-cpp",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -164,7 +164,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libGLES_mali",
+	name: "vendor.libGLES_mali",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -183,7 +183,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libGLES_meow",
+	name: "vendor.libGLES_meow",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -202,7 +202,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libMEOW_data",
+	name: "vendor.libMEOW_data",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -221,7 +221,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libMEOW_gift",
+	name: "vendor.libMEOW_gift",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -240,7 +240,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libMEOW_qt",
+	name: "vendor.libMEOW_qt",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -259,7 +259,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libMEOW_trace",
+	name: "vendor.libMEOW_trace",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -278,7 +278,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "fake_serial_yuv_IdxMgr",
+	name: "vendor.fake_serial_yuv_IdxMgr",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -296,7 +296,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "fake_serial_yuv_tuning",
+	name: "vendor.fake_serial_yuv_tuning",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -314,7 +314,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "framework-permission-aidl-cpp",
+	name: "vendor.framework-permission-aidl-cpp",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -332,7 +332,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "gc08a8_mipi_raw_IdxMgr",
+	name: "vendor.gc08a8_mipi_raw_IdxMgr",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -350,7 +350,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "gc08a8_mipi_raw_tuning",
+	name: "vendor.gc08a8_mipi_raw_tuning",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -368,7 +368,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "gc13a0_mipi_raw_IdxMgr",
+	name: "vendor.gc13a0_mipi_raw_IdxMgr",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -386,7 +386,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "gc13a0_mipi_raw_tuning",
+	name: "vendor.gc13a0_mipi_raw_tuning",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -404,7 +404,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "hi846_mipi_raw_IdxMgr",
+	name: "vendor.hi846_mipi_raw_IdxMgr",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -422,7 +422,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "hi846_mipi_raw_tuning",
+	name: "vendor.hi846_mipi_raw_tuning",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -440,7 +440,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "android.hardware.audio.effect@6.0-impl",
+	name: "vendor.android.hardware.audio.effect@6.0-impl",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -459,7 +459,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "android.hardware.audio.effect@7.0-impl",
+	name: "vendor.android.hardware.audio.effect@7.0-impl",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -478,7 +478,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "android.hardware.bluetooth.audio@2.0-impl",
+	name: "vendor.android.hardware.bluetooth.audio@2.0-impl",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -497,7 +497,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "android.hardware.bluetooth.audio@2.1-impl",
+	name: "vendor.android.hardware.bluetooth.audio@2.1-impl",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -516,7 +516,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "android.hardware.gatekeeper@1.0-impl",
+	name: "vendor.android.hardware.gatekeeper@1.0-impl",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -535,7 +535,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "android.hardware.renderscript@1.0-impl",
+	name: "vendor.android.hardware.renderscript@1.0-impl",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -554,7 +554,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "android.hardware.thermal@1.0-impl",
+	name: "vendor.android.hardware.thermal@1.0-impl",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -573,7 +573,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "android.hardware.thermal@2.0-impl",
+	name: "vendor.android.hardware.thermal@2.0-impl",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -592,7 +592,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "audio.bluetooth.default",
+	name: "vendor.audio.bluetooth.default",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -611,7 +611,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "audio.primary.default",
+	name: "vendor.audio.primary.default",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -630,7 +630,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "audio.primary.mt6768",
+	name: "vendor.audio.primary.mt6768",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -649,7 +649,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "audio.r_submix.default",
+	name: "vendor.audio.r_submix.default",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -668,7 +668,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "audio.r_submix.mt6768",
+	name: "vendor.audio.r_submix.mt6768",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -687,7 +687,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "audio.usb.default",
+	name: "vendor.audio.usb.default",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -706,7 +706,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "audio_policy.stub",
+	name: "vendor.audio_policy.stub",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -725,7 +725,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "face.default",
+	name: "vendor.face.default",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -744,7 +744,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "focal_fingerprint.default",
+	name: "vendor.focal_fingerprint.default",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -763,7 +763,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "fpsensor_fingerprint.default",
+	name: "vendor.fpsensor_fingerprint.default",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -782,7 +782,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "gatekeeper.default",
+	name: "vendor.gatekeeper.default",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -801,7 +801,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "gatekeeper.trustonic",
+	name: "vendor.gatekeeper.trustonic",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -820,7 +820,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "gf_fingerprint.default",
+	name: "vendor.gf_fingerprint.default",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -839,7 +839,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "gps.default",
+	name: "vendor.gps.default",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -858,7 +858,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "gralloc.default",
+	name: "vendor.gralloc.default",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -877,7 +877,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "hwcomposer.mt6768",
+	name: "vendor.hwcomposer.mt6768",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -896,7 +896,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "kmsetkey.default",
+	name: "vendor.kmsetkey.default",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -915,7 +915,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "kmsetkey.trustonic",
+	name: "vendor.kmsetkey.trustonic",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -934,7 +934,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libMcGatekeeper",
+	name: "vendor.libMcGatekeeper",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -953,7 +953,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libSoftGatekeeper",
+	name: "vendor.libSoftGatekeeper",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -972,7 +972,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "lights.mt6768",
+	name: "vendor.lights.mt6768",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -991,7 +991,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "local_time.default",
+	name: "vendor.local_time.default",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1010,7 +1010,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "paytrigger.trustonic",
+	name: "vendor.paytrigger.trustonic",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1029,7 +1029,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "power.default",
+	name: "vendor.power.default",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1048,7 +1048,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "sensors.mt6768",
+	name: "vendor.sensors.mt6768",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1067,7 +1067,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "thermal_hal",
+	name: "vendor.thermal_hal",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1295,7 +1295,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vibrator.default",
+	name: "vendor.vibrator.default",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1314,7 +1314,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vibrator.mt6768",
+	name: "vendor.vibrator.mt6768",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1333,7 +1333,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "lbs_hidl_service-impl",
+	name: "vendor.lbs_hidl_service-impl",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1351,7 +1351,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "lib3a.ae.core",
+	name: "vendor.lib3a.ae.core",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1369,7 +1369,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "lib3a.ae",
+	name: "vendor.lib3a.ae",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1387,7 +1387,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "lib3a.af.core",
+	name: "vendor.lib3a.af.core",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1405,7 +1405,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "lib3a.af",
+	name: "vendor.lib3a.af",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1423,7 +1423,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "lib3a.awb.core",
+	name: "vendor.lib3a.awb.core",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1441,7 +1441,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "lib3a.awb",
+	name: "vendor.lib3a.awb",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1459,7 +1459,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "lib3a.ccudrv",
+	name: "vendor.lib3a.ccudrv",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1477,7 +1477,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "lib3a.ccuif",
+	name: "vendor.lib3a.ccuif",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1495,7 +1495,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "lib3a.flash",
+	name: "vendor.lib3a.flash",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1513,7 +1513,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "lib3a.gma",
+	name: "vendor.lib3a.gma",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1531,7 +1531,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "lib3a.lce",
+	name: "vendor.lib3a.lce",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1549,7 +1549,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "lib3a.log",
+	name: "vendor.lib3a.log",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1567,7 +1567,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libDR",
+	name: "vendor.libDR",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1585,7 +1585,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libDefaultFpsActor",
+	name: "vendor.libDefaultFpsActor",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1603,7 +1603,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libFrameRecord",
+	name: "vendor.libFrameRecord",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1621,7 +1621,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libHEVCdec_sa.ca7.android",
+	name: "vendor.libHEVCdec_sa.ca7.android",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1639,7 +1639,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libImageEval",
+	name: "vendor.libImageEval",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1657,7 +1657,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libJpgEncPipe",
+	name: "vendor.libJpgEncPipe",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1675,7 +1675,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libMcClient",
+	name: "vendor.libMcClient",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1693,7 +1693,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libMtkOmxCore",
+	name: "vendor.libMtkOmxCore",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1711,7 +1711,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libMtkOmxGsmDec",
+	name: "vendor.libMtkOmxGsmDec",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1729,7 +1729,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libMtkOmxMp3Dec",
+	name: "vendor.libMtkOmxMp3Dec",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1747,7 +1747,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libMtkSpeechEnh",
+	name: "vendor.libMtkSpeechEnh",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1765,7 +1765,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libNoFpsActor",
+	name: "vendor.libNoFpsActor",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1783,7 +1783,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libNvLutEffect",
+	name: "vendor.libNvLutEffect",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1801,7 +1801,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libOpenCL",
+	name: "vendor.libOpenCL",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1819,7 +1819,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libQstAlgo_v632",
+	name: "vendor.libQstAlgo_v632",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1837,7 +1837,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libSQLiteModule_VER_ALL",
+	name: "vendor.libSQLiteModule_VER_ALL",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1855,7 +1855,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libSonyIMX230PdafLibrary",
+	name: "vendor.libSonyIMX230PdafLibrary",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1873,7 +1873,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libSonyIMX230PdafLibraryWrapper",
+	name: "vendor.libSonyIMX230PdafLibraryWrapper",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1891,7 +1891,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libSonyIMX338PdafLibrary",
+	name: "vendor.libSonyIMX338PdafLibrary",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1909,7 +1909,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libSonyIMX338PdafLibraryWrapper",
+	name: "vendor.libSonyIMX338PdafLibraryWrapper",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1927,7 +1927,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libSonyIMX386PdafLibrary",
+	name: "vendor.libSonyIMX386PdafLibrary",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1945,7 +1945,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libSonyIMX386PdafLibraryWrapper",
+	name: "vendor.libSonyIMX386PdafLibraryWrapper",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1963,7 +1963,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libSonyIMX519PdafLibrary",
+	name: "vendor.libSonyIMX519PdafLibrary",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1981,7 +1981,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libSonyIMX519PdafLibraryWrapper",
+	name: "vendor.libSonyIMX519PdafLibraryWrapper",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -1999,7 +1999,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libTEECommon",
+	name: "vendor.libTEECommon",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2017,7 +2017,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libTranASD",
+	name: "vendor.libTranASD",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2035,7 +2035,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libTranArcFilter",
+	name: "vendor.libTranArcFilter",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2053,7 +2053,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libTranArcHDR",
+	name: "vendor.libTranArcHDR",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2071,7 +2071,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libTranArcNightHawk",
+	name: "vendor.libTranArcNightHawk",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2089,7 +2089,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libTranAutoColorLevel",
+	name: "vendor.libTranAutoColorLevel",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2107,7 +2107,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libTranColorEnhance",
+	name: "vendor.libTranColorEnhance",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2125,7 +2125,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libTranDenoise",
+	name: "vendor.libTranDenoise",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2143,7 +2143,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libTranExtImgProc",
+	name: "vendor.libTranExtImgProc",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2161,7 +2161,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libTranExtImgThread",
+	name: "vendor.libTranExtImgThread",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2179,7 +2179,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libTranEyeDetect",
+	name: "vendor.libTranEyeDetect",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2197,7 +2197,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libTranFaceDetectCoordinate",
+	name: "vendor.libTranFaceDetectCoordinate",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2215,7 +2215,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libTranGenderDetect",
+	name: "vendor.libTranGenderDetect",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2233,7 +2233,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libTranITDFaceBeauty",
+	name: "vendor.libTranITDFaceBeauty",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2251,7 +2251,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libTranMSFilter",
+	name: "vendor.libTranMSFilter",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2269,7 +2269,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libTranPlatHW",
+	name: "vendor.libTranPlatHW",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2287,7 +2287,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libTranSTSingleBlur",
+	name: "vendor.libTranSTSingleBlur",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2305,7 +2305,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libTranSlimBody",
+	name: "vendor.libTranSlimBody",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2323,7 +2323,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libTranSmartDetection",
+	name: "vendor.libTranSmartDetection",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2341,7 +2341,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libTran_Log",
+	name: "vendor.libTran_Log",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2359,7 +2359,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libTranfacFunction",
+	name: "vendor.libTranfacFunction",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2377,7 +2377,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libTranfacOverlay",
+	name: "vendor.libTranfacOverlay",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2395,7 +2395,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libWaterMarkProc",
+	name: "vendor.libWaterMarkProc",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2413,7 +2413,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "lib_bsscore",
+	name: "vendor.lib_bsscore",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2431,7 +2431,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "lib_iir",
+	name: "vendor.lib_iir",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2449,7 +2449,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "lib_speech_enh",
+	name: "vendor.lib_speech_enh",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2467,7 +2467,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaacvibrator",
+	name: "vendor.libaacvibrator",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2485,7 +2485,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaal_cust",
+	name: "vendor.libaal_cust",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2503,7 +2503,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaal_key",
+	name: "vendor.libaal_key",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2521,7 +2521,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaal_mtk",
+	name: "vendor.libaal_mtk",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2539,7 +2539,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaalservice",
+	name: "vendor.libaalservice",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2557,7 +2557,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libabfadp",
+	name: "vendor.libabfadp",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2575,7 +2575,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libacdk",
+	name: "vendor.libacdk",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2593,7 +2593,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libadpcmdec_mtk",
+	name: "vendor.libadpcmdec_mtk",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2611,7 +2611,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaedv",
+	name: "vendor.libaedv",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2629,7 +2629,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libalsautils",
+	name: "vendor.libalsautils",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2647,7 +2647,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libamipengine",
+	name: "vendor.libamipengine",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2665,7 +2665,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libapmonitor_vendor",
+	name: "vendor.libapmonitor_vendor",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2683,7 +2683,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libappgamepq",
+	name: "vendor.libappgamepq",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2701,7 +2701,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libapu_mdw",
+	name: "vendor.libapu_mdw",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2719,7 +2719,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libapusys",
+	name: "vendor.libapusys",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2737,7 +2737,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libapusys_edma",
+	name: "vendor.libapusys_edma",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2755,7 +2755,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libarcsoft_high_dynamic_range",
+	name: "vendor.libarcsoft_high_dynamic_range",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2773,7 +2773,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libarcsoft_night_hawk",
+	name: "vendor.libarcsoft_night_hawk",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2791,7 +2791,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libarmnn",
+	name: "vendor.libarmnn",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2809,7 +2809,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libarmnn_ndk.mtk.vndk",
+	name: "vendor.libarmnn_ndk.mtk.vndk",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2827,7 +2827,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libasn1c_core",
+	name: "vendor.libasn1c_core",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2845,7 +2845,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libasn1c_mapi",
+	name: "vendor.libasn1c_mapi",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2863,7 +2863,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libasn1c_mdmi",
+	name: "vendor.libasn1c_mdmi",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2881,7 +2881,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaudio_param_parser-vnd",
+	name: "vendor.libaudio_param_parser-vnd",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2899,7 +2899,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaudioclient_aidl_conversion",
+	name: "vendor.libaudioclient_aidl_conversion",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2917,7 +2917,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaudiocompensationfilter_vendor",
+	name: "vendor.libaudiocompensationfilter_vendor",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2935,7 +2935,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaudiocompensationfilterc",
+	name: "vendor.libaudiocompensationfilterc",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2953,7 +2953,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaudiocomponentengine_vendor",
+	name: "vendor.libaudiocomponentengine_vendor",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2971,7 +2971,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaudiocomponentenginec",
+	name: "vendor.libaudiocomponentenginec",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -2989,7 +2989,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaudiocustparam_vendor",
+	name: "vendor.libaudiocustparam_vendor",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3007,7 +3007,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaudiodcrflt_vendor",
+	name: "vendor.libaudiodcrflt_vendor",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3025,7 +3025,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaudiofmtconv",
+	name: "vendor.libaudiofmtconv",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3043,7 +3043,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaudiofoundation",
+	name: "vendor.libaudiofoundation",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3061,7 +3061,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaudioloudc",
+	name: "vendor.libaudioloudc",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3079,7 +3079,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaudioprimarydevicehalifclient",
+	name: "vendor.libaudioprimarydevicehalifclient",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3097,7 +3097,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaudiotoolkit_vendor",
+	name: "vendor.libaudiotoolkit_vendor",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3115,7 +3115,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaurisysdemo",
+	name: "vendor.libaurisysdemo",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3133,7 +3133,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libawinic_mtk_aurisys",
+	name: "vendor.libawinic_mtk_aurisys",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3151,7 +3151,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libbessound_hd_mtk_vendor",
+	name: "vendor.libbessound_hd_mtk_vendor",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3169,7 +3169,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libbinderdebug",
+	name: "vendor.libbinderdebug",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3187,7 +3187,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libblisrc32_vendor",
+	name: "vendor.libblisrc32_vendor",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3205,7 +3205,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libbluetooth_audio_session",
+	name: "vendor.libbluetooth_audio_session",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3223,7 +3223,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libbluetooth_audio_session_mediatek",
+	name: "vendor.libbluetooth_audio_session_mediatek",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3241,7 +3241,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libbluetooth_hw_test",
+	name: "vendor.libbluetooth_hw_test",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3259,7 +3259,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libbluetooth_mtk",
+	name: "vendor.libbluetooth_mtk",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3277,7 +3277,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libbluetooth_mtk_pure",
+	name: "vendor.libbluetooth_mtk_pure",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3295,7 +3295,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libbluetooth_relayer",
+	name: "vendor.libbluetooth_relayer",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3313,7 +3313,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libbluetoothem_mtk",
+	name: "vendor.libbluetoothem_mtk",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3331,7 +3331,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libbt-vendor",
+	name: "vendor.libbt-vendor",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3349,7 +3349,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libbwc",
+	name: "vendor.libbwc",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3367,7 +3367,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcalculatesharpness",
+	name: "vendor.libcalculatesharpness",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3385,7 +3385,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcam.chdr",
+	name: "vendor.libcam.chdr",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3403,7 +3403,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcam.feature_utils",
+	name: "vendor.libcam.feature_utils",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3421,7 +3421,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcam.hal3a.cctsvr",
+	name: "vendor.libcam.hal3a.cctsvr",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3439,7 +3439,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcam.hal3a.log",
+	name: "vendor.libcam.hal3a.log",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3457,7 +3457,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcam.hal3a.v3.dng",
+	name: "vendor.libcam.hal3a.v3.dng",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3475,7 +3475,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcam.hal3a.v3.lsctbl",
+	name: "vendor.libcam.hal3a.v3.lsctbl",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3493,7 +3493,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcam.hal3a.v3.nvram",
+	name: "vendor.libcam.hal3a.v3.nvram",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3511,7 +3511,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcam.hal3a.v3",
+	name: "vendor.libcam.hal3a.v3",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3529,7 +3529,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcam.halisp",
+	name: "vendor.libcam.halisp",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3547,7 +3547,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcam.halsensor.hwintegration",
+	name: "vendor.libcam.halsensor.hwintegration",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3565,7 +3565,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcam.halsensor",
+	name: "vendor.libcam.halsensor",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3583,7 +3583,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcam.iopipe",
+	name: "vendor.libcam.iopipe",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3601,7 +3601,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcam.lcs",
+	name: "vendor.libcam.lcs",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3619,7 +3619,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcam.pdtblgen",
+	name: "vendor.libcam.pdtblgen",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3637,7 +3637,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcam.utils.sensorprovider",
+	name: "vendor.libcam.utils.sensorprovider",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3655,7 +3655,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcam.vhdr",
+	name: "vendor.libcam.vhdr",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3673,7 +3673,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcam3_tranelapsedtime",
+	name: "vendor.libcam3_tranelapsedtime",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3691,7 +3691,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcam3_tranpriorityctrl",
+	name: "vendor.libcam3_tranpriorityctrl",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3709,7 +3709,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcam3_transerverengine",
+	name: "vendor.libcam3_transerverengine",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3727,7 +3727,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcamalgo.3dnr",
+	name: "vendor.libcamalgo.3dnr",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3745,7 +3745,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcamalgo.abf",
+	name: "vendor.libcamalgo.abf",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3763,7 +3763,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcamalgo.dngop",
+	name: "vendor.libcamalgo.dngop",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3781,7 +3781,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcamalgo.eis",
+	name: "vendor.libcamalgo.eis",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3799,7 +3799,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcamalgo.fdft",
+	name: "vendor.libcamalgo.fdft",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3817,7 +3817,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcamalgo.flicker",
+	name: "vendor.libcamalgo.flicker",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3835,7 +3835,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcamalgo.fsc",
+	name: "vendor.libcamalgo.fsc",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3853,7 +3853,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcamalgo.gyro",
+	name: "vendor.libcamalgo.gyro",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3871,7 +3871,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcamalgo.ispfeature",
+	name: "vendor.libcamalgo.ispfeature",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3889,7 +3889,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcamalgo.lmv",
+	name: "vendor.libcamalgo.lmv",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3907,7 +3907,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcamalgo.lsc",
+	name: "vendor.libcamalgo.lsc",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3925,7 +3925,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcamalgo.mfnr",
+	name: "vendor.libcamalgo.mfnr",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3943,7 +3943,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcamalgo.nr",
+	name: "vendor.libcamalgo.nr",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3961,7 +3961,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcamalgo.platform",
+	name: "vendor.libcamalgo.platform",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3979,7 +3979,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcamalgo.platform2",
+	name: "vendor.libcamalgo.platform2",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -3997,7 +3997,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcamalgo.utility",
+	name: "vendor.libcamalgo.utility",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4015,7 +4015,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcamalgo.warp",
+	name: "vendor.libcamalgo.warp",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4033,7 +4033,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcamdrv_isp",
+	name: "vendor.libcamdrv_isp",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4051,7 +4051,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcamdrv_tuning_mgr",
+	name: "vendor.libcamdrv_tuning_mgr",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4069,7 +4069,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcamdrv_twin",
+	name: "vendor.libcamdrv_twin",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4087,7 +4087,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcamera2ndk_vendor",
+	name: "vendor.libcamera2ndk_vendor",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4105,7 +4105,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcameracustom",
+	name: "vendor.libcameracustom",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4123,7 +4123,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcapctrl",
+	name: "vendor.libcapctrl",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4141,7 +4141,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcares_naptr",
+	name: "vendor.libcares_naptr",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4159,7 +4159,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcarrierconfig",
+	name: "vendor.libcarrierconfig",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4177,7 +4177,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libccci_util",
+	name: "vendor.libccci_util",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4195,7 +4195,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcharon-ss",
+	name: "vendor.libcharon-ss",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4213,7 +4213,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcmdl",
+	name: "vendor.libcmdl",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4231,7 +4231,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcmdl_ndk.mtk.vndk",
+	name: "vendor.libcmdl_ndk.mtk.vndk",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4249,7 +4249,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcodec2_hidl@1.1",
+	name: "vendor.libcodec2_hidl@1.1",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4267,7 +4267,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcodec2_hidl@1.2",
+	name: "vendor.libcodec2_hidl@1.2",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4285,7 +4285,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcodec2_hidl_plugin",
+	name: "vendor.libcodec2_hidl_plugin",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4303,7 +4303,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcodec2_mtk_c2store",
+	name: "vendor.libcodec2_mtk_c2store",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4321,7 +4321,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcodec2_mtk_vdec",
+	name: "vendor.libcodec2_mtk_vdec",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4339,7 +4339,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcodec2_mtk_venc",
+	name: "vendor.libcodec2_mtk_venc",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4357,7 +4357,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcodec2_soft_common",
+	name: "vendor.libcodec2_soft_common",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4375,7 +4375,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcodec2_soft_mtk_alacdec",
+	name: "vendor.libcodec2_soft_mtk_alacdec",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4393,7 +4393,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcodec2_soft_mtk_apedec",
+	name: "vendor.libcodec2_soft_mtk_apedec",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4411,7 +4411,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcodec2_soft_mtk_imaadpcmdec",
+	name: "vendor.libcodec2_soft_mtk_imaadpcmdec",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4429,7 +4429,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcodec2_soft_mtk_mp3dec",
+	name: "vendor.libcodec2_soft_mtk_mp3dec",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4447,7 +4447,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcodec2_soft_mtk_msadpcmdec",
+	name: "vendor.libcodec2_soft_mtk_msadpcmdec",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4465,7 +4465,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcodec2_vpp_qt_plugin",
+	name: "vendor.libcodec2_vpp_qt_plugin",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4483,7 +4483,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcodec2_vpp_rs_plugin",
+	name: "vendor.libcodec2_vpp_rs_plugin",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4501,7 +4501,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcolorenhance_32",
+	name: "vendor.libcolorenhance_32",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4519,7 +4519,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcolorlevel",
+	name: "vendor.libcolorlevel",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4537,7 +4537,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcomposer_ext",
+	name: "vendor.libcomposer_ext",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4555,7 +4555,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libconnfem",
+	name: "vendor.libconnfem",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4573,7 +4573,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcppbor_external",
+	name: "vendor.libcppbor_external",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4591,7 +4591,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcppcose_rkp",
+	name: "vendor.libcppcose_rkp",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4609,7 +4609,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcrypto-mdapp",
+	name: "vendor.libcrypto-mdapp",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4627,7 +4627,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcs_cs35l45_intf",
+	name: "vendor.libcs_cs35l45_intf",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4645,7 +4645,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcurl-md",
+	name: "vendor.libcurl-md",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4663,7 +4663,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcurl_xcap_md",
+	name: "vendor.libcurl_xcap_md",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4681,7 +4681,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcustom_nvram",
+	name: "vendor.libcustom_nvram",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4699,7 +4699,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcvsd_mtk",
+	name: "vendor.libcvsd_mtk",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4717,7 +4717,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libdecrypt",
+	name: "vendor.libdecrypt",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4735,7 +4735,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libdenoise",
+	name: "vendor.libdenoise",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4753,7 +4753,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libdeviceauthen",
+	name: "vendor.libdeviceauthen",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4771,7 +4771,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libdpframework",
+	name: "vendor.libdpframework",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4789,7 +4789,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libdre",
+	name: "vendor.libdre",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4807,7 +4807,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libdts-eagle-shared",
+	name: "vendor.libdts-eagle-shared",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4825,7 +4825,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libdtsdsec",
+	name: "vendor.libdtsdsec",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4843,7 +4843,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libdynamiclog",
+	name: "vendor.libdynamiclog",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4861,7 +4861,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libeffecthal.base",
+	name: "vendor.libeffecthal.base",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4879,7 +4879,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libeyedetector",
+	name: "vendor.libeyedetector",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4897,7 +4897,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libfacedetector",
+	name: "vendor.libfacedetector",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4915,7 +4915,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libfacesattribute",
+	name: "vendor.libfacesattribute",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4933,7 +4933,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libfeature.face",
+	name: "vendor.libfeature.face",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4951,7 +4951,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libfeature.stereo.provider",
+	name: "vendor.libfeature.stereo.provider",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4969,7 +4969,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libfeature_3dnr",
+	name: "vendor.libfeature_3dnr",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -4987,7 +4987,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libfeature_fsc",
+	name: "vendor.libfeature_fsc",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5005,7 +5005,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libfeature_lmv",
+	name: "vendor.libfeature_lmv",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5023,7 +5023,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libfeature_rss",
+	name: "vendor.libfeature_rss",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5041,7 +5041,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libfeatureiodrv_mem",
+	name: "vendor.libfeatureiodrv_mem",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5059,7 +5059,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libfft_vendor",
+	name: "vendor.libfft_vendor",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5077,7 +5077,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libfgauge_gm30",
+	name: "vendor.libfgauge_gm30",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5095,7 +5095,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libfile_op",
+	name: "vendor.libfile_op",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5113,7 +5113,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libflatbuffers-cpp",
+	name: "vendor.libflatbuffers-cpp",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5131,7 +5131,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libforkexecwrap",
+	name: "vendor.libforkexecwrap",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5149,7 +5149,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libformatter",
+	name: "vendor.libformatter",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5167,7 +5167,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libfp_ext_svc2",
+	name: "vendor.libfp_ext_svc2",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5185,7 +5185,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libgamehdr",
+	name: "vendor.libgamehdr",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5203,7 +5203,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libged",
+	name: "vendor.libged",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5221,7 +5221,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libgf_ca",
+	name: "vendor.libgf_ca",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5239,7 +5239,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libgf_factory_test",
+	name: "vendor.libgf_factory_test",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5257,7 +5257,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libgf_hal",
+	name: "vendor.libgf_hal",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5275,7 +5275,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libgoodixhwfingerprint",
+	name: "vendor.libgoodixhwfingerprint",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5293,7 +5293,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libgpu_aux",
+	name: "vendor.libgpu_aux",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5311,7 +5311,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libgpud",
+	name: "vendor.libgpud",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5329,7 +5329,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libgralloc_extra",
+	name: "vendor.libgralloc_extra",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5347,7 +5347,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libgralloc_metadata",
+	name: "vendor.libgralloc_metadata",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5365,7 +5365,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libgralloctypes_mtk",
+	name: "vendor.libgralloctypes_mtk",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5383,7 +5383,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libgz_gp_client",
+	name: "vendor.libgz_gp_client",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5401,7 +5401,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libgz_uree",
+	name: "vendor.libgz_uree",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5419,7 +5419,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libh264dec_customize",
+	name: "vendor.libh264dec_customize",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5437,7 +5437,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libh264dec_sa.ca7",
+	name: "vendor.libh264dec_sa.ca7",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5455,7 +5455,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libh264dec_sd.ca7",
+	name: "vendor.libh264dec_sd.ca7",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5473,7 +5473,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libh264dec_se.ca7",
+	name: "vendor.libh264dec_se.ca7",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5491,7 +5491,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libh264enc_sa.ca7",
+	name: "vendor.libh264enc_sa.ca7",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5509,7 +5509,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libheichal",
+	name: "vendor.libheichal",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5527,7 +5527,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libhevce_sb.ca7.android",
+	name: "vendor.libhevce_sb.ca7.android",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5545,7 +5545,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libhwc2onfbadapter",
+	name: "vendor.libhwc2onfbadapter",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5563,7 +5563,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libhwm",
+	name: "vendor.libhwm",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5581,7 +5581,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libhydra",
+	name: "vendor.libhydra",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5599,7 +5599,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libhyperion_hap_ca",
+	name: "vendor.libhyperion_hap_ca",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5617,7 +5617,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libicd_decoder",
+	name: "vendor.libicd_decoder",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5635,7 +5635,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libifcutils_mtk",
+	name: "vendor.libifcutils_mtk",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5653,7 +5653,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libimageio",
+	name: "vendor.libimageio",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5671,7 +5671,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libimageio_plat_drv",
+	name: "vendor.libimageio_plat_drv",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5689,7 +5689,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libimageio_plat_pipe",
+	name: "vendor.libimageio_plat_pipe",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5707,7 +5707,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libimsg_log",
+	name: "vendor.libimsg_log",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5725,7 +5725,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libion_mtk",
+	name: "vendor.libion_mtk",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5743,7 +5743,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libion_ulit",
+	name: "vendor.libion_ulit",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5761,7 +5761,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libipsec_ims_shr",
+	name: "vendor.libipsec_ims_shr",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5779,7 +5779,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libitdfacebeauty",
+	name: "vendor.libitdfacebeauty",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5797,7 +5797,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libjpeg-alpha-oal_vendor",
+	name: "vendor.libjpeg-alpha-oal_vendor",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5815,7 +5815,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libjpeg-alpha_vendor",
+	name: "vendor.libjpeg-alpha_vendor",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5833,7 +5833,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libkeymaster4",
+	name: "vendor.libkeymaster4",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5851,7 +5851,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libkeymaster41",
+	name: "vendor.libkeymaster41",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5869,7 +5869,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libkeymaster4_1support",
+	name: "vendor.libkeymaster4_1support",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5887,7 +5887,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libkeystore-engine-wifi-hidl",
+	name: "vendor.libkeystore-engine-wifi-hidl",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5905,7 +5905,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libkeystore-wifi-hidl",
+	name: "vendor.libkeystore-wifi-hidl",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5923,7 +5923,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libkmsetkey",
+	name: "vendor.libkmsetkey",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5941,7 +5941,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libksensor",
+	name: "vendor.libksensor",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5959,7 +5959,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libladder",
+	name: "vendor.libladder",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5977,7 +5977,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "liblpcnr",
+	name: "vendor.liblpcnr",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -5995,7 +5995,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmfllcore",
+	name: "vendor.libmfllcore",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6013,7 +6013,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libminiui",
+	name: "vendor.libminiui",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6031,7 +6031,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libminizip",
+	name: "vendor.libminizip",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6049,7 +6049,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmipc",
+	name: "vendor.libmipc",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6067,7 +6067,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmmagent",
+	name: "vendor.libmmagent",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6085,7 +6085,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmml",
+	name: "vendor.libmml",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6103,7 +6103,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmmprofile",
+	name: "vendor.libmmprofile",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6121,7 +6121,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmnetlink_v104",
+	name: "vendor.libmnetlink_v104",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6139,7 +6139,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmnl",
+	name: "vendor.libmnl",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6157,7 +6157,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmp3dec_mtk",
+	name: "vendor.libmp3dec_mtk",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6175,7 +6175,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmp4enc_sa.ca7",
+	name: "vendor.libmp4enc_sa.ca7",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6193,7 +6193,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmp4enc_xa.ca7",
+	name: "vendor.libmp4enc_xa.ca7",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6211,7 +6211,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmpbase",
+	name: "vendor.libmpbase",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6229,7 +6229,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmsbc_mtk",
+	name: "vendor.libmsbc_mtk",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6247,7 +6247,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmsnr",
+	name: "vendor.libmsnr",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6265,7 +6265,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtcloader",
+	name: "vendor.libmtcloader",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6283,7 +6283,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtk-fusion-ril-prop-vsim",
+	name: "vendor.libmtk-fusion-ril-prop-vsim",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6301,7 +6301,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtk-ril",
+	name: "vendor.libmtk-ril",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6319,7 +6319,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtk_bsg",
+	name: "vendor.libmtk_bsg",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6337,7 +6337,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtk_drvb",
+	name: "vendor.libmtk_drvb",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6355,7 +6355,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkares",
+	name: "vendor.libmtkares",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6373,7 +6373,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam.eventcallback",
+	name: "vendor.libmtkcam.eventcallback",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6391,7 +6391,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam.featurepipe.capture",
+	name: "vendor.libmtkcam.featurepipe.capture",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6409,7 +6409,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam.featurepipe.streaming",
+	name: "vendor.libmtkcam.featurepipe.streaming",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6427,7 +6427,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam.featurepipe.vsdof_util",
+	name: "vendor.libmtkcam.featurepipe.vsdof_util",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6445,7 +6445,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam.logicalmodule",
+	name: "vendor.libmtkcam.logicalmodule",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6463,7 +6463,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_3rdparty.core",
+	name: "vendor.libmtkcam_3rdparty.core",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6481,7 +6481,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_3rdparty.customer",
+	name: "vendor.libmtkcam_3rdparty.customer",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6499,7 +6499,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_3rdparty.mtk",
+	name: "vendor.libmtkcam_3rdparty.mtk",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6517,7 +6517,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_3rdparty",
+	name: "vendor.libmtkcam_3rdparty",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6535,7 +6535,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_3rdparty.thread",
+	name: "vendor.libmtkcam_3rdparty.thread",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6553,7 +6553,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_calibration_convertor",
+	name: "vendor.libmtkcam_calibration_convertor",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6571,7 +6571,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_calibration_provider",
+	name: "vendor.libmtkcam_calibration_provider",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6589,7 +6589,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_debugutils",
+	name: "vendor.libmtkcam_debugutils",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6607,7 +6607,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_device3_app",
+	name: "vendor.libmtkcam_device3_app",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6625,7 +6625,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_device3_hal",
+	name: "vendor.libmtkcam_device3_hal",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6643,7 +6643,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_device3_hidl",
+	name: "vendor.libmtkcam_device3_hidl",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6661,7 +6661,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_device3_hidlutils",
+	name: "vendor.libmtkcam_device3_hidlutils",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6679,7 +6679,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_device3_utils",
+	name: "vendor.libmtkcam_device3_utils",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6697,7 +6697,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_devicesessionpolicy",
+	name: "vendor.libmtkcam_devicesessionpolicy",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6715,7 +6715,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_diputils",
+	name: "vendor.libmtkcam_diputils",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6733,7 +6733,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_exif",
+	name: "vendor.libmtkcam_exif",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6751,7 +6751,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_fdvt",
+	name: "vendor.libmtkcam_fdvt",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6769,7 +6769,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_featurepolicy",
+	name: "vendor.libmtkcam_featurepolicy",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6787,7 +6787,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_featureutils",
+	name: "vendor.libmtkcam_featureutils",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6805,7 +6805,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_fwkutils",
+	name: "vendor.libmtkcam_fwkutils",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6823,7 +6823,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_grallocutils",
+	name: "vendor.libmtkcam_grallocutils",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6841,7 +6841,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_hwnode",
+	name: "vendor.libmtkcam_hwnode",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6859,7 +6859,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_hwutils",
+	name: "vendor.libmtkcam_hwutils",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6877,7 +6877,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_imem",
+	name: "vendor.libmtkcam_imem",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6895,7 +6895,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_imgbuf",
+	name: "vendor.libmtkcam_imgbuf",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6913,7 +6913,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_metadata",
+	name: "vendor.libmtkcam_metadata",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6931,7 +6931,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_metastore",
+	name: "vendor.libmtkcam_metastore",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6949,7 +6949,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_modulefactory_aaa",
+	name: "vendor.libmtkcam_modulefactory_aaa",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6967,7 +6967,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_modulefactory_custom",
+	name: "vendor.libmtkcam_modulefactory_custom",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -6985,7 +6985,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_modulefactory_drv",
+	name: "vendor.libmtkcam_modulefactory_drv",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7003,7 +7003,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_modulefactory_utils",
+	name: "vendor.libmtkcam_modulefactory_utils",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7021,7 +7021,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_modulehelper",
+	name: "vendor.libmtkcam_modulehelper",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7039,7 +7039,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_pipeline",
+	name: "vendor.libmtkcam_pipeline",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7057,7 +7057,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_pipeline_fbm",
+	name: "vendor.libmtkcam_pipeline_fbm",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7075,7 +7075,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_pipelinemodel",
+	name: "vendor.libmtkcam_pipelinemodel",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7093,7 +7093,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_pipelinemodel_adapter",
+	name: "vendor.libmtkcam_pipelinemodel_adapter",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7111,7 +7111,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_pipelinemodel_capture",
+	name: "vendor.libmtkcam_pipelinemodel_capture",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7129,7 +7129,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_pipelinemodel_isp",
+	name: "vendor.libmtkcam_pipelinemodel_isp",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7147,7 +7147,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_pipelinemodel_session",
+	name: "vendor.libmtkcam_pipelinemodel_session",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7165,7 +7165,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_pipelinemodel_utils",
+	name: "vendor.libmtkcam_pipelinemodel_utils",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7183,7 +7183,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_pipelinemodel_zsl",
+	name: "vendor.libmtkcam_pipelinemodel_zsl",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7201,7 +7201,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_pipelinepolicy-aov",
+	name: "vendor.libmtkcam_pipelinepolicy-aov",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7219,7 +7219,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_pipelinepolicy-security",
+	name: "vendor.libmtkcam_pipelinepolicy-security",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7237,7 +7237,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_pipelinepolicy-smvr",
+	name: "vendor.libmtkcam_pipelinepolicy-smvr",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7255,7 +7255,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_pipelinepolicy",
+	name: "vendor.libmtkcam_pipelinepolicy",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7273,7 +7273,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_pipelinepolicy_factory",
+	name: "vendor.libmtkcam_pipelinepolicy_factory",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7291,7 +7291,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_prerelease",
+	name: "vendor.libmtkcam_prerelease",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7309,7 +7309,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_rsc",
+	name: "vendor.libmtkcam_rsc",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7327,7 +7327,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_scenariorecorder",
+	name: "vendor.libmtkcam_scenariorecorder",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7345,7 +7345,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_stdutils",
+	name: "vendor.libmtkcam_stdutils",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7363,7 +7363,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_streamutils",
+	name: "vendor.libmtkcam_streamutils",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7381,7 +7381,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_synchelper",
+	name: "vendor.libmtkcam_synchelper",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7399,7 +7399,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_sysutils",
+	name: "vendor.libmtkcam_sysutils",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7417,7 +7417,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_tuning_utils",
+	name: "vendor.libmtkcam_tuning_utils",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7435,7 +7435,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcam_ulog",
+	name: "vendor.libmtkcam_ulog",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7453,7 +7453,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkconfig",
+	name: "vendor.libmtkconfig",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7471,7 +7471,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkconfigutils",
+	name: "vendor.libmtkconfigutils",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7489,7 +7489,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkcutils",
+	name: "vendor.libmtkcutils",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7507,7 +7507,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkhardware_legacy",
+	name: "vendor.libmtkhardware_legacy",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7525,7 +7525,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkisp_metadata",
+	name: "vendor.libmtkisp_metadata",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7543,7 +7543,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtklimiter_vendor",
+	name: "vendor.libmtklimiter_vendor",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7561,7 +7561,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkmipc-ril",
+	name: "vendor.libmtkmipc-ril",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7579,7 +7579,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtknetcap",
+	name: "vendor.libmtknetcap",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7597,7 +7597,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtknetutils",
+	name: "vendor.libmtknetutils",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7615,7 +7615,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkperf_client_vendor",
+	name: "vendor.libmtkperf_client_vendor",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7633,7 +7633,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkproperty",
+	name: "vendor.libmtkproperty",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7651,7 +7651,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkrillog",
+	name: "vendor.libmtkrillog",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7669,7 +7669,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkrilutils",
+	name: "vendor.libmtkrilutils",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7687,7 +7687,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkshifter_vendor",
+	name: "vendor.libmtkshifter_vendor",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7705,7 +7705,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkspparser",
+	name: "vendor.libmtkspparser",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7723,7 +7723,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtksysutils",
+	name: "vendor.libmtksysutils",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7741,7 +7741,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtktinyxml",
+	name: "vendor.libmtktinyxml",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7759,7 +7759,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkutils",
+	name: "vendor.libmtkutils",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7777,7 +7777,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmvpu_config_data",
+	name: "vendor.libmvpu_config_data",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7795,7 +7795,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libneuroeara",
+	name: "vendor.libneuroeara",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7813,7 +7813,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libneuropilot_hal_utils",
+	name: "vendor.libneuropilot_hal_utils",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7831,7 +7831,25 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libnir_neon_driver_ndk.mtk.vndk",
+	name: "vendor.libnir_neon_driver",
+	owner: "infinix",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libnir_neon_driver.so"],
+			shared_libs: [ ],
+		},
+	},
+	compile_multilib: "32",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.libnir_neon_driver_ndk.mtk.vndk",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7849,7 +7867,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libnvram",
+	name: "vendor.libnvram",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7867,7 +7885,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libnvram_sec",
+	name: "vendor.libnvram_sec",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7885,7 +7903,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libnwk_opt_halwrap_vendor",
+	name: "vendor.libnwk_opt_halwrap_vendor",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7903,7 +7921,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libnxp_extamp_intf",
+	name: "vendor.libnxp_extamp_intf",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7921,7 +7939,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libperfctl_vendor",
+	name: "vendor.libperfctl_vendor",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7939,7 +7957,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libpkm",
+	name: "vendor.libpkm",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7957,7 +7975,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libpnpmgr",
+	name: "vendor.libpnpmgr",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7975,7 +7993,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libpower_timer",
+	name: "vendor.libpower_timer",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -7993,7 +8011,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libpowerhal",
+	name: "vendor.libpowerhal",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8011,7 +8029,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libpowerhalwrap_vendor",
+	name: "vendor.libpowerhalwrap_vendor",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8029,7 +8047,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libpq_cust_base",
+	name: "vendor.libpq_cust_base",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8047,7 +8065,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libpq_prot",
+	name: "vendor.libpq_prot",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8065,7 +8083,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libpqframework",
+	name: "vendor.libpqframework",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8083,7 +8101,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libpqparamparser",
+	name: "vendor.libpqparamparser",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8101,7 +8119,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libpqpconfig",
+	name: "vendor.libpqpconfig",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8119,7 +8137,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libratconfig",
+	name: "vendor.libratconfig",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8137,7 +8155,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "librcs_interface",
+	name: "vendor.librcs_interface",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8155,7 +8173,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "librcs_volte_core",
+	name: "vendor.librcs_volte_core",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8173,7 +8191,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "librgbwlightsensor",
+	name: "vendor.librgbwlightsensor",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8191,7 +8209,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "librilfusion",
+	name: "vendor.librilfusion",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8209,7 +8227,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "librt_extamp_intf",
+	name: "vendor.librt_extamp_intf",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8227,7 +8245,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libruy",
+	name: "vendor.libruy",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8245,7 +8263,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsensor_custom",
+	name: "vendor.libsensor_custom",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8263,7 +8281,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsensorndkbridge",
+	name: "vendor.libsensorndkbridge",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8281,7 +8299,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsfplugin_ccodec_utils",
+	name: "vendor.libsfplugin_ccodec_utils",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8299,7 +8317,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libshmemcompat",
+	name: "vendor.libshmemcompat",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8317,7 +8335,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libshmemutil",
+	name: "vendor.libshmemutil",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8335,7 +8353,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsimaka",
+	name: "vendor.libsimaka",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8353,7 +8371,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsimlock",
+	name: "vendor.libsimlock",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8371,7 +8389,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsimmelock",
+	name: "vendor.libsimmelock",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8389,7 +8407,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsmartdetector",
+	name: "vendor.libsmartdetector",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8407,7 +8425,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsoft_attestation_cert",
+	name: "vendor.libsoft_attestation_cert",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8425,7 +8443,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libspeech_enh_lib",
+	name: "vendor.libspeech_enh_lib",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8443,7 +8461,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libspeechparser_vendor",
+	name: "vendor.libspeechparser_vendor",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8461,7 +8479,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libssl-mdapp",
+	name: "vendor.libssl-mdapp",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8479,7 +8497,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libst_mobile",
+	name: "vendor.libst_mobile",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8497,25 +8515,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libstagefright_bufferpool@2.0.1",
-	owner: "infinix",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libstagefright_bufferpool@2.0.1.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libstagefright_softomx_plugin",
+	name: "vendor.libstagefright_softomx_plugin",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8533,7 +8533,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libstagefrighthw",
+	name: "vendor.libstagefrighthw",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8551,7 +8551,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libstblur_capture_api",
+	name: "vendor.libstblur_capture_api",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8569,7 +8569,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libstereoinfoaccessor_vsdof",
+	name: "vendor.libstereoinfoaccessor_vsdof",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8587,7 +8587,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libstfaceunlockppl",
+	name: "vendor.libstfaceunlockppl",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8605,7 +8605,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libstorage_otp",
+	name: "vendor.libstorage_otp",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8623,7 +8623,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libstrongswan",
+	name: "vendor.libstrongswan",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8641,7 +8641,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsysenv",
+	name: "vendor.libsysenv",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8659,7 +8659,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libtf_asd_lib",
+	name: "vendor.libtf_asd_lib",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8677,7 +8677,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libtflite_mtk",
+	name: "vendor.libtflite_mtk",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8695,7 +8695,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libtflite_native_gainference",
+	name: "vendor.libtflite_native_gainference",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8713,7 +8713,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libtflite_native_inference",
+	name: "vendor.libtflite_native_inference",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8731,7 +8731,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libthermalalgo",
+	name: "vendor.libthermalalgo",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8749,7 +8749,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libthha",
+	name: "vendor.libthha",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8767,7 +8767,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libtneclient",
+	name: "vendor.libtneclient",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8785,7 +8785,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libtnev",
+	name: "vendor.libtnev",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8803,7 +8803,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libtranDatacenter",
+	name: "vendor.libtranDatacenter",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8821,7 +8821,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libtrancamJsonConvertor",
+	name: "vendor.libtrancamJsonConvertor",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8839,7 +8839,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libtrancam_filelockmgr",
+	name: "vendor.libtrancam_filelockmgr",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8857,7 +8857,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libtrancrypto",
+	name: "vendor.libtrancrypto",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8875,7 +8875,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libtranlog",
+	name: "vendor.libtranlog",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8893,7 +8893,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libtranradionet_mtk",
+	name: "vendor.libtranradionet_mtk",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8911,7 +8911,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libtranslator_mapi_v3.0",
+	name: "vendor.libtranslator_mapi_v3.0",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8929,7 +8929,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libtranslator_mdmi_v2.8.2",
+	name: "vendor.libtranslator_mdmi_v2.8.2",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8947,7 +8947,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libtranslator_utils",
+	name: "vendor.libtranslator_utils",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8965,7 +8965,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libtranssion_bodybeauty",
+	name: "vendor.libtranssion_bodybeauty",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -8983,7 +8983,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libtranssion_forkexecwrap",
+	name: "vendor.libtranssion_forkexecwrap",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9001,7 +9001,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libtrm",
+	name: "vendor.libtrm",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9019,7 +9019,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libtvrfy",
+	name: "vendor.libtvrfy",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9037,7 +9037,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libudf",
+	name: "vendor.libudf",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9055,7 +9055,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libutinterface_custom_md",
+	name: "vendor.libutinterface_custom_md",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9073,7 +9073,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libutinterface_md",
+	name: "vendor.libutinterface_md",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9091,7 +9091,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libvcodec_oal",
+	name: "vendor.libvcodec_oal",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9109,7 +9109,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libvcodec_utility_v3a",
+	name: "vendor.libvcodec_utility_v3a",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9127,7 +9127,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libvcodecdrv_header_stub",
+	name: "vendor.libvcodecdrv_header_stub",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9145,7 +9145,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libvcodecdrv_v3a",
+	name: "vendor.libvcodecdrv_v3a",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9163,7 +9163,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libvendor.goodix.hardware.biometrics.fingerprint@2.1",
+	name: "vendor.libvendor.goodix.hardware.biometrics.fingerprint@2.1",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9181,7 +9181,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libverno",
+	name: "vendor.libverno",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9199,7 +9199,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libvia-ril",
+	name: "vendor.libvia-ril",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9217,7 +9217,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libviamipc-ril",
+	name: "vendor.libviamipc-ril",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9235,7 +9235,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libvibrator",
+	name: "vendor.libvibrator",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9253,7 +9253,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libvolte_core_shr",
+	name: "vendor.libvolte_core_shr",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9271,7 +9271,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libvolte_xdmc_shr",
+	name: "vendor.libvolte_xdmc_shr",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9289,7 +9289,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libvp8dec_sa.ca7",
+	name: "vendor.libvp8dec_sa.ca7",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9307,7 +9307,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libvp8enc_sa.ca7",
+	name: "vendor.libvp8enc_sa.ca7",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9325,7 +9325,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libvp9dec_sa.ca7",
+	name: "vendor.libvp9dec_sa.ca7",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9343,7 +9343,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libvpu5",
+	name: "vendor.libvpu5",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9361,7 +9361,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libvpudv3a_vcodec",
+	name: "vendor.libvpudv3a_vcodec",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9379,7 +9379,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libvpx",
+	name: "vendor.libvpx",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9397,7 +9397,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libvt_custom",
+	name: "vendor.libvt_custom",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9415,7 +9415,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libwapi",
+	name: "vendor.libwapi",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9433,7 +9433,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libwifi-hal",
+	name: "vendor.libwifi-hal",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9451,7 +9451,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libwifitest",
+	name: "vendor.libwifitest",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9469,7 +9469,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libwo",
+	name: "vendor.libwo",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9487,7 +9487,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libwpa_client",
+	name: "vendor.libwpa_client",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9505,7 +9505,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libwpfa",
+	name: "vendor.libwpfa",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9523,7 +9523,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libwvhidl",
+	name: "vendor.libwvhidl",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9541,7 +9541,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libz_stable",
+	name: "vendor.libz_stable",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9559,7 +9559,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libclearkeycasplugin",
+	name: "vendor.libclearkeycasplugin",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9578,7 +9578,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libdrmclearkeyplugin",
+	name: "vendor.libdrmclearkeyplugin",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9597,7 +9597,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmockdrmcryptoplugin",
+	name: "vendor.libmockdrmcryptoplugin",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9616,7 +9616,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libwvdrmengine",
+	name: "vendor.libwvdrmengine",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9635,7 +9635,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "meta_wifi_data",
+	name: "vendor.meta_wifi_data",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9653,26 +9653,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libnir_neon_driver",
-	owner: "infinix",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/mt6768/libnir_neon_driver.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	relative_install_path: "mt6768",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libmtkcam_streaminfo_plugin-p1stt",
+	name: "vendor.libmtkcam_streaminfo_plugin-p1stt",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9691,7 +9672,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "nwk_opt_imp",
+	name: "vendor.nwk_opt_imp",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9709,7 +9690,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "pblcgc08a8_mipi_raw_IdxMgr",
+	name: "vendor.pblcgc08a8_mipi_raw_IdxMgr",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9727,7 +9708,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "pblcgc08a8_mipi_raw_tuning",
+	name: "vendor.pblcgc08a8_mipi_raw_tuning",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9745,7 +9726,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "pblcgc13a0_mipi_raw_IdxMgr",
+	name: "vendor.pblcgc13a0_mipi_raw_IdxMgr",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9763,7 +9744,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "pblcgc13a0_mipi_raw_tuning",
+	name: "vendor.pblcgc13a0_mipi_raw_tuning",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9781,7 +9762,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "pblchi846_mipi_raw_IdxMgr",
+	name: "vendor.pblchi846_mipi_raw_IdxMgr",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9799,7 +9780,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "pblchi846_mipi_raw_tuning",
+	name: "vendor.pblchi846_mipi_raw_tuning",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9817,7 +9798,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "pblcs5k3l6_mipi_raw_IdxMgr",
+	name: "vendor.pblcs5k3l6_mipi_raw_IdxMgr",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9835,7 +9816,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "pblcs5k3l6_mipi_raw_tuning",
+	name: "vendor.pblcs5k3l6_mipi_raw_tuning",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9853,7 +9834,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "s5k3l6_mipi_raw_IdxMgr",
+	name: "vendor.s5k3l6_mipi_raw_IdxMgr",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9871,7 +9852,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "s5k3l6_mipi_raw_tuning",
+	name: "vendor.s5k3l6_mipi_raw_tuning",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9889,7 +9870,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "shared-file-region-aidl-cpp",
+	name: "vendor.shared-file-region-aidl-cpp",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9907,7 +9888,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaudiopreprocessing_mtk",
+	name: "vendor.libaudiopreprocessing_mtk",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9926,7 +9907,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libdtsaudio",
+	name: "vendor.libdtsaudio",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9945,7 +9926,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libdynproc",
+	name: "vendor.libdynproc",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -9964,7 +9945,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libhapticgenerator",
+	name: "vendor.libhapticgenerator",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -11567,7 +11548,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libarcsoft_chart_free_calibration",
+	name: "vendor.libarcsoft_chart_free_calibration",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -11585,7 +11566,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libarcsoft_dualcam_wt_calibration",
+	name: "vendor.libarcsoft_dualcam_wt_calibration",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -11603,7 +11584,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libarcsoft_dualcam_wt_verification",
+	name: "vendor.libarcsoft_dualcam_wt_verification",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -11621,7 +11602,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcalibverifyW_T",
+	name: "vendor.libcalibverifyW_T",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -11639,7 +11620,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libged_sys",
+	name: "vendor.libged_sys",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -11657,7 +11638,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libgralloc_extra_sys",
+	name: "vendor.libgralloc_extra_sys",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -11675,7 +11656,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsf_cpupolicy",
+	name: "vendor.libsf_cpupolicy",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -11693,7 +11674,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libstagefright_wfd_mtk",
+	name: "vendor.libstagefright_wfd_mtk",
 	owner: "infinix",
 	strip: {
 		none: true,
@@ -11765,7 +11746,7 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
-	name: "GoogleTetheringResOverlay",
+	name: "vendor.GoogleTetheringResOverlay",
 	owner: "infinix",
 	apk: "proprietary/vendor/app/GoogleTetheringResOverlay/GoogleTetheringResOverlay.apk",
 	certificate: "platform",
@@ -11776,7 +11757,7 @@ android_app_import {
 }
 
 android_app_import {
-	name: "InProcessTetheringResOverlay",
+	name: "vendor.InProcessTetheringResOverlay",
 	owner: "infinix",
 	apk: "proprietary/vendor/app/InProcessTetheringResOverlay/InProcessTetheringResOverlay.apk",
 	certificate: "platform",
@@ -11787,7 +11768,7 @@ android_app_import {
 }
 
 android_app_import {
-	name: "NetworkStackGoogleGoResOverlay",
+	name: "vendor.NetworkStackGoogleGoResOverlay",
 	owner: "infinix",
 	apk: "proprietary/vendor/app/NetworkStackGoogleGoResOverlay/NetworkStackGoogleGoResOverlay.apk",
 	certificate: "platform",
@@ -11798,7 +11779,7 @@ android_app_import {
 }
 
 android_app_import {
-	name: "NetworkStackGoogleResOverlay",
+	name: "vendor.NetworkStackGoogleResOverlay",
 	owner: "infinix",
 	apk: "proprietary/vendor/app/NetworkStackGoogleResOverlay/NetworkStackGoogleResOverlay.apk",
 	certificate: "platform",
@@ -11809,7 +11790,7 @@ android_app_import {
 }
 
 android_app_import {
-	name: "NetworkStackInProcessResOverlay",
+	name: "vendor.NetworkStackInProcessResOverlay",
 	owner: "infinix",
 	apk: "proprietary/vendor/app/NetworkStackInProcessResOverlay/NetworkStackInProcessResOverlay.apk",
 	certificate: "platform",
@@ -11820,7 +11801,7 @@ android_app_import {
 }
 
 android_app_import {
-	name: "NetworkStackResOverlay",
+	name: "vendor.NetworkStackResOverlay",
 	owner: "infinix",
 	apk: "proprietary/vendor/app/NetworkStackResOverlay/NetworkStackResOverlay.apk",
 	certificate: "platform",
@@ -11831,7 +11812,7 @@ android_app_import {
 }
 
 android_app_import {
-	name: "TetheringResOverlay",
+	name: "vendor.TetheringResOverlay",
 	owner: "infinix",
 	apk: "proprietary/vendor/app/TetheringResOverlay/TetheringResOverlay.apk",
 	certificate: "platform",
@@ -11842,14 +11823,14 @@ android_app_import {
 }
 
 dex_import {
-	name: "com.transsion.tranfacsdk",
+	name: "vendor.com.transsion.tranfacsdk",
 	owner: "infinix",
 	jars: ["proprietary/vendor/framework/com.transsion.tranfacsdk.jar"],
 	soc_specific: true,
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.biometrics.fingerprint@2.1-service.xml",
+	name: "vendor.android.hardware.biometrics.fingerprint@2.1-service.xml",
 	owner: "infinix",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml",
 	filename_from_src: true,
@@ -11858,7 +11839,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.boot@1.2.xml",
+	name: "vendor.android.hardware.boot@1.2.xml",
 	owner: "infinix",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.boot@1.2.xml",
 	filename_from_src: true,
@@ -11867,7 +11848,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.cas@1.2-service-lazy.xml",
+	name: "vendor.android.hardware.cas@1.2-service-lazy.xml",
 	owner: "infinix",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml",
 	filename_from_src: true,
@@ -11876,7 +11857,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.health@2.1.xml",
+	name: "vendor.android.hardware.health@2.1.xml",
 	owner: "infinix",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.health@2.1.xml",
 	filename_from_src: true,
@@ -11885,7 +11866,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.usb@1.2-service-mediatekv2.xml",
+	name: "vendor.android.hardware.usb@1.2-service-mediatekv2.xml",
 	owner: "infinix",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.usb@1.2-service-mediatekv2.xml",
 	filename_from_src: true,
@@ -11894,7 +11875,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.wifi.hostapd.xml",
+	name: "vendor.android.hardware.wifi.hostapd.xml",
 	owner: "infinix",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml",
 	filename_from_src: true,
@@ -11903,7 +11884,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.wifi.supplicant.xml",
+	name: "vendor.android.hardware.wifi.supplicant.xml",
 	owner: "infinix",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml",
 	filename_from_src: true,
@@ -11912,7 +11893,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.wifi@1.0-service.xml",
+	name: "vendor.android.hardware.wifi@1.0-service.xml",
 	owner: "infinix",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml",
 	filename_from_src: true,
@@ -11921,7 +11902,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "gnss-default.xml",
+	name: "vendor.gnss-default.xml",
 	owner: "infinix",
 	src: "proprietary/vendor/etc/vintf/manifest/gnss-default.xml",
 	filename_from_src: true,
@@ -11930,7 +11911,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "gnss@2.1-service.xml",
+	name: "vendor.gnss@2.1-service.xml",
 	owner: "infinix",
 	src: "proprietary/vendor/etc/vintf/manifest/gnss@2.1-service.xml",
 	filename_from_src: true,
@@ -11939,7 +11920,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "lbs_hidl_service@1.0.xml",
+	name: "vendor.lbs_hidl_service@1.0.xml",
 	owner: "infinix",
 	src: "proprietary/vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml",
 	filename_from_src: true,
@@ -11948,7 +11929,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "lights-mtk-default.xml",
+	name: "vendor.lights-mtk-default.xml",
 	owner: "infinix",
 	src: "proprietary/vendor/etc/vintf/manifest/lights-mtk-default.xml",
 	filename_from_src: true,
@@ -11957,7 +11938,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_android.hardware.drm@1.4-service.clearkey.xml",
+	name: "vendor.manifest_android.hardware.drm@1.4-service.clearkey.xml",
 	owner: "infinix",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.clearkey.xml",
 	filename_from_src: true,
@@ -11966,7 +11947,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_android.hardware.drm@1.4-service.widevine.xml",
+	name: "vendor.manifest_android.hardware.drm@1.4-service.widevine.xml",
 	owner: "infinix",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml",
 	filename_from_src: true,
@@ -11975,7 +11956,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_face_default.xml",
+	name: "vendor.manifest_face_default.xml",
 	owner: "infinix",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_face_default.xml",
 	filename_from_src: true,
@@ -11984,7 +11965,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_hwcomposer.xml",
+	name: "vendor.manifest_hwcomposer.xml",
 	owner: "infinix",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_hwcomposer.xml",
 	filename_from_src: true,
@@ -11993,7 +11974,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_media_c2_V1_1_default.xml",
+	name: "vendor.manifest_media_c2_V1_1_default.xml",
 	owner: "infinix",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_media_c2_V1_1_default.xml",
 	filename_from_src: true,
@@ -12002,7 +11983,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_storage.xml",
+	name: "vendor.manifest_storage.xml",
 	owner: "infinix",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_storage.xml",
 	filename_from_src: true,
@@ -12011,7 +11992,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_tneengine.xml",
+	name: "vendor.manifest_tneengine.xml",
 	owner: "infinix",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_tneengine.xml",
 	filename_from_src: true,
@@ -12020,7 +12001,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "memtrack-mediatek.xml",
+	name: "vendor.memtrack-mediatek.xml",
 	owner: "infinix",
 	src: "proprietary/vendor/etc/vintf/manifest/memtrack-mediatek.xml",
 	filename_from_src: true,
@@ -12029,7 +12010,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "power-default.xml",
+	name: "vendor.power-default.xml",
 	owner: "infinix",
 	src: "proprietary/vendor/etc/vintf/manifest/power-default.xml",
 	filename_from_src: true,
@@ -12110,7 +12091,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vibrator-mtk-default.xml",
+	name: "vendor.vibrator-mtk-default.xml",
 	owner: "infinix",
 	src: "proprietary/vendor/etc/vintf/manifest/vibrator-mtk-default.xml",
 	filename_from_src: true,
@@ -12119,501 +12100,501 @@ prebuilt_etc_xml {
 }
 
 sh_binary {
-	name: "AgentTest",
+	name: "vendor.AgentTest",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/AgentTest",
-	filename: "AgentTest",
+	filename: "vendor.AgentTest",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "TransSchedTest",
+	name: "vendor.TransSchedTest",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/TransSchedTest",
-	filename: "TransSchedTest",
+	filename: "vendor.TransSchedTest",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "aee_aedv",
+	name: "vendor.aee_aedv",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/aee_aedv",
-	filename: "aee_aedv",
+	filename: "vendor.aee_aedv",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "aee_dumpstatev",
+	name: "vendor.aee_dumpstatev",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/aee_dumpstatev",
-	filename: "aee_dumpstatev",
+	filename: "vendor.aee_dumpstatev",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "aeev",
+	name: "vendor.aeev",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/aeev",
-	filename: "aeev",
+	filename: "vendor.aeev",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "applypatch",
+	name: "vendor.applypatch",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/applypatch",
-	filename: "applypatch",
+	filename: "vendor.applypatch",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "atcid",
+	name: "vendor.atcid",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/atcid",
-	filename: "atcid",
+	filename: "vendor.atcid",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "audiocmdservice_atci",
+	name: "vendor.audiocmdservice_atci",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/audiocmdservice_atci",
-	filename: "audiocmdservice_atci",
+	filename: "vendor.audiocmdservice_atci",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "autobt",
+	name: "vendor.autobt",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/autobt",
-	filename: "autobt",
+	filename: "vendor.autobt",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "bip",
+	name: "vendor.bip",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/bip",
-	filename: "bip",
+	filename: "vendor.bip",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "boringssl_self_test32",
+	name: "vendor.boringssl_self_test32",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/boringssl_self_test32",
-	filename: "boringssl_self_test32",
+	filename: "vendor.boringssl_self_test32",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "ccci_mdinit",
+	name: "vendor.ccci_mdinit",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/ccci_mdinit",
-	filename: "ccci_mdinit",
+	filename: "vendor.ccci_mdinit",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "ccci_rpcd",
+	name: "vendor.ccci_rpcd",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/ccci_rpcd",
-	filename: "ccci_rpcd",
+	filename: "vendor.ccci_rpcd",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "charon",
+	name: "vendor.charon",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/charon",
-	filename: "charon",
+	filename: "vendor.charon",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "chg_sence",
+	name: "vendor.chg_sence",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/chg_sence",
-	filename: "chg_sence",
+	filename: "vendor.chg_sence",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "chipinfo",
+	name: "vendor.chipinfo",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/chipinfo",
-	filename: "chipinfo",
+	filename: "vendor.chipinfo",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "dexecutor",
+	name: "vendor.dexecutor",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/dexecutor",
-	filename: "dexecutor",
+	filename: "vendor.dexecutor",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "dmabuf_dump",
+	name: "vendor.dmabuf_dump",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/dmabuf_dump",
-	filename: "dmabuf_dump",
+	filename: "vendor.dmabuf_dump",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "dmc_core",
+	name: "vendor.dmc_core",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/dmc_core",
-	filename: "dmc_core",
+	filename: "vendor.dmc_core",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "doeapp-memtester",
+	name: "vendor.doeapp-memtester",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/doeapp-memtester",
-	filename: "doeapp-memtester",
+	filename: "vendor.doeapp-memtester",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "doeapp-sat",
+	name: "vendor.doeapp-sat",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/doeapp-sat",
-	filename: "doeapp-sat",
+	filename: "vendor.doeapp-sat",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "dtc_vendor",
+	name: "vendor.dtc_vendor",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/dtc_vendor",
-	filename: "dtc_vendor",
+	filename: "vendor.dtc_vendor",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "dumpsys",
+	name: "vendor.dumpsys",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/dumpsys",
-	filename: "dumpsys",
+	filename: "vendor.dumpsys",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "em_hidl",
+	name: "vendor.em_hidl",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/em_hidl",
-	filename: "em_hidl",
+	filename: "vendor.em_hidl",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "epdg_wod",
+	name: "vendor.epdg_wod",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/epdg_wod",
-	filename: "epdg_wod",
+	filename: "vendor.epdg_wod",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "factory",
+	name: "vendor.factory",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/factory",
-	filename: "factory",
+	filename: "vendor.factory",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "fpsgo",
+	name: "vendor.fpsgo",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/fpsgo",
-	filename: "fpsgo",
+	filename: "vendor.fpsgo",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "fuelgauged",
+	name: "vendor.fuelgauged",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/fuelgauged",
-	filename: "fuelgauged",
+	filename: "vendor.fuelgauged",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "get_ufs_error",
+	name: "vendor.get_ufs_error",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/get_ufs_error",
-	filename: "get_ufs_error",
+	filename: "vendor.get_ufs_error",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "gsm0710muxd",
+	name: "vendor.gsm0710muxd",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/gsm0710muxd",
-	filename: "gsm0710muxd",
+	filename: "vendor.gsm0710muxd",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "hostapd_cli",
+	name: "vendor.hostapd_cli",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hostapd_cli",
-	filename: "hostapd_cli",
+	filename: "vendor.hostapd_cli",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "android.hardware.audio.service.mediatek",
+	name: "vendor.android.hardware.audio.service.mediatek",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.audio.service.mediatek",
-	filename: "android.hardware.audio.service.mediatek",
+	filename: "vendor.android.hardware.audio.service.mediatek",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "android.hardware.biometrics.face@1.0-service.example",
+	name: "vendor.android.hardware.biometrics.face@1.0-service.example",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.biometrics.face@1.0-service.example",
-	filename: "android.hardware.biometrics.face@1.0-service.example",
+	filename: "vendor.android.hardware.biometrics.face@1.0-service.example",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "android.hardware.biometrics.fingerprint@2.1-service",
+	name: "vendor.android.hardware.biometrics.fingerprint@2.1-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service",
-	filename: "android.hardware.biometrics.fingerprint@2.1-service",
+	filename: "vendor.android.hardware.biometrics.fingerprint@2.1-service",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "android.hardware.bluetooth@1.1-service-mediatek",
+	name: "vendor.android.hardware.bluetooth@1.1-service-mediatek",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek",
-	filename: "android.hardware.bluetooth@1.1-service-mediatek",
+	filename: "vendor.android.hardware.bluetooth@1.1-service-mediatek",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "android.hardware.boot@1.2-service",
+	name: "vendor.android.hardware.boot@1.2-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.boot@1.2-service",
-	filename: "android.hardware.boot@1.2-service",
+	filename: "vendor.android.hardware.boot@1.2-service",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "android.hardware.cas@1.2-service-lazy",
+	name: "vendor.android.hardware.cas@1.2-service-lazy",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.cas@1.2-service-lazy",
-	filename: "android.hardware.cas@1.2-service-lazy",
+	filename: "vendor.android.hardware.cas@1.2-service-lazy",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "android.hardware.drm@1.4-service-lazy.clearkey",
+	name: "vendor.android.hardware.drm@1.4-service-lazy.clearkey",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.drm@1.4-service-lazy.clearkey",
-	filename: "android.hardware.drm@1.4-service-lazy.clearkey",
+	filename: "vendor.android.hardware.drm@1.4-service-lazy.clearkey",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "android.hardware.drm@1.4-service-lazy.widevine",
+	name: "vendor.android.hardware.drm@1.4-service-lazy.widevine",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.drm@1.4-service-lazy.widevine",
-	filename: "android.hardware.drm@1.4-service-lazy.widevine",
+	filename: "vendor.android.hardware.drm@1.4-service-lazy.widevine",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "android.hardware.gatekeeper@1.0-service",
+	name: "vendor.android.hardware.gatekeeper@1.0-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service",
-	filename: "android.hardware.gatekeeper@1.0-service",
+	filename: "vendor.android.hardware.gatekeeper@1.0-service",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "android.hardware.graphics.allocator@4.0-service-mediatek",
+	name: "vendor.android.hardware.graphics.allocator@4.0-service-mediatek",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek",
-	filename: "android.hardware.graphics.allocator@4.0-service-mediatek",
+	filename: "vendor.android.hardware.graphics.allocator@4.0-service-mediatek",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "android.hardware.graphics.composer@2.1-service",
+	name: "vendor.android.hardware.graphics.composer@2.1-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.graphics.composer@2.1-service",
-	filename: "android.hardware.graphics.composer@2.1-service",
+	filename: "vendor.android.hardware.graphics.composer@2.1-service",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "android.hardware.health@2.1-service",
+	name: "vendor.android.hardware.health@2.1-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.health@2.1-service",
-	filename: "android.hardware.health@2.1-service",
+	filename: "vendor.android.hardware.health@2.1-service",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "android.hardware.keymaster@4.1-service.trustonic",
+	name: "vendor.android.hardware.keymaster@4.1-service.trustonic",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.keymaster@4.1-service.trustonic",
-	filename: "android.hardware.keymaster@4.1-service.trustonic",
+	filename: "vendor.android.hardware.keymaster@4.1-service.trustonic",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "android.hardware.lights-service.mediatek",
+	name: "vendor.android.hardware.lights-service.mediatek",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.lights-service.mediatek",
-	filename: "android.hardware.lights-service.mediatek",
+	filename: "vendor.android.hardware.lights-service.mediatek",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "android.hardware.media.c2@1.2-mediatek",
+	name: "vendor.android.hardware.media.c2@1.2-mediatek",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek",
-	filename: "android.hardware.media.c2@1.2-mediatek",
+	filename: "vendor.android.hardware.media.c2@1.2-mediatek",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "android.hardware.media.omx@1.0-service",
+	name: "vendor.android.hardware.media.omx@1.0-service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.media.omx@1.0-service",
-	filename: "android.hardware.media.omx@1.0-service",
+	filename: "vendor.android.hardware.media.omx@1.0-service",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "android.hardware.memtrack-service.mediatek",
+	name: "vendor.android.hardware.memtrack-service.mediatek",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.memtrack-service.mediatek",
-	filename: "android.hardware.memtrack-service.mediatek",
+	filename: "vendor.android.hardware.memtrack-service.mediatek",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "android.hardware.secure_element@1.2-service-mediatek",
+	name: "vendor.android.hardware.secure_element@1.2-service-mediatek",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek",
-	filename: "android.hardware.secure_element@1.2-service-mediatek",
+	filename: "vendor.android.hardware.secure_element@1.2-service-mediatek",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "android.hardware.sensors@2.0-service.multihal-mediatek",
+	name: "vendor.android.hardware.sensors@2.0-service.multihal-mediatek",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek",
-	filename: "android.hardware.sensors@2.0-service.multihal-mediatek",
+	filename: "vendor.android.hardware.sensors@2.0-service.multihal-mediatek",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "android.hardware.usb@1.2-service-mediatekv2",
+	name: "vendor.android.hardware.usb@1.2-service-mediatekv2",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.usb@1.2-service-mediatekv2",
-	filename: "android.hardware.usb@1.2-service-mediatekv2",
+	filename: "vendor.android.hardware.usb@1.2-service-mediatekv2",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "android.hardware.vibrator-service.mediatek",
+	name: "vendor.android.hardware.vibrator-service.mediatek",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.vibrator-service.mediatek",
-	filename: "android.hardware.vibrator-service.mediatek",
+	filename: "vendor.android.hardware.vibrator-service.mediatek",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "android.hardware.wifi@1.0-service-lazy",
+	name: "vendor.android.hardware.wifi@1.0-service-lazy",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service-lazy",
-	filename: "android.hardware.wifi@1.0-service-lazy",
+	filename: "vendor.android.hardware.wifi@1.0-service-lazy",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "camerahalserver",
+	name: "vendor.camerahalserver",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/camerahalserver",
-	filename: "camerahalserver",
+	filename: "vendor.camerahalserver",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "hostapd",
+	name: "vendor.hostapd",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/hostapd",
-	filename: "hostapd",
+	filename: "vendor.hostapd",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "merged_hal_service",
+	name: "vendor.merged_hal_service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/merged_hal_service",
-	filename: "merged_hal_service",
+	filename: "vendor.merged_hal_service",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "mtkfusionrild",
+	name: "vendor.mtkfusionrild",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/mtkfusionrild",
-	filename: "mtkfusionrild",
+	filename: "vendor.mtkfusionrild",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "trandatacenter",
+	name: "vendor.trandatacenter",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/trandatacenter",
-	filename: "trandatacenter",
+	filename: "vendor.trandatacenter",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "tranradionet",
+	name: "vendor.tranradionet",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/tranradionet",
-	filename: "tranradionet",
+	filename: "vendor.tranradionet",
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12799,443 +12780,443 @@ sh_binary {
 }
 
 sh_binary {
-	name: "vtservice_hidl",
+	name: "vendor.vtservice_hidl",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/vtservice_hidl",
-	filename: "vtservice_hidl",
+	filename: "vendor.vtservice_hidl",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "wpa_supplicant",
+	name: "vendor.wpa_supplicant",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/wpa_supplicant",
-	filename: "wpa_supplicant",
+	filename: "vendor.wpa_supplicant",
 	sub_dir: "hw",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "ipsec_mon",
+	name: "vendor.ipsec_mon",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/ipsec_mon",
-	filename: "ipsec_mon",
+	filename: "vendor.ipsec_mon",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "jpegtool",
+	name: "vendor.jpegtool",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/jpegtool",
-	filename: "jpegtool",
+	filename: "vendor.jpegtool",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "kmsetkey_ca.trustonic",
+	name: "vendor.kmsetkey_ca.trustonic",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/kmsetkey_ca.trustonic",
-	filename: "kmsetkey_ca.trustonic",
+	filename: "vendor.kmsetkey_ca.trustonic",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "lib3a.ccu.dm",
+	name: "vendor.lib3a.ccu.dm",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/lib3a.ccu.dm",
-	filename: "lib3a.ccu.dm",
+	filename: "vendor.lib3a.ccu.dm",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "lib3a.ccu.pm",
+	name: "vendor.lib3a.ccu.pm",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/lib3a.ccu.pm",
-	filename: "lib3a.ccu.pm",
+	filename: "vendor.lib3a.ccu.pm",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "loghidlvendorservice",
+	name: "vendor.loghidlvendorservice",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/loghidlvendorservice",
-	filename: "loghidlvendorservice",
+	filename: "vendor.loghidlvendorservice",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "mcDriverDaemon",
+	name: "vendor.mcDriverDaemon",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/mcDriverDaemon",
-	filename: "mcDriverDaemon",
+	filename: "vendor.mcDriverDaemon",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "md_monitor",
+	name: "vendor.md_monitor",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/md_monitor",
-	filename: "md_monitor",
+	filename: "vendor.md_monitor",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "md_monitor_ctrl",
+	name: "vendor.md_monitor_ctrl",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/md_monitor_ctrl",
-	filename: "md_monitor_ctrl",
+	filename: "vendor.md_monitor_ctrl",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "meta_tst",
+	name: "vendor.meta_tst",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/meta_tst",
-	filename: "meta_tst",
+	filename: "vendor.meta_tst",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "mnld",
+	name: "vendor.mnld",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/mnld",
-	filename: "mnld",
+	filename: "vendor.mnld",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "mrdump_tool",
+	name: "vendor.mrdump_tool",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/mrdump_tool",
-	filename: "mrdump_tool",
+	filename: "vendor.mrdump_tool",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "mt6660_calibration",
+	name: "vendor.mt6660_calibration",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/mt6660_calibration",
-	filename: "mt6660_calibration",
+	filename: "vendor.mt6660_calibration",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "mtk_agpsd",
+	name: "vendor.mtk_agpsd",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/mtk_agpsd",
-	filename: "mtk_agpsd",
+	filename: "vendor.mtk_agpsd",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "mtk_pkm_service",
+	name: "vendor.mtk_pkm_service",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/mtk_pkm_service",
-	filename: "mtk_pkm_service",
+	filename: "vendor.mtk_pkm_service",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "mtk_plpath_utils_ota",
+	name: "vendor.mtk_plpath_utils_ota",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/mtk_plpath_utils_ota",
-	filename: "mtk_plpath_utils_ota",
+	filename: "vendor.mtk_plpath_utils_ota",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "muxreport",
+	name: "vendor.muxreport",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/muxreport",
-	filename: "muxreport",
+	filename: "vendor.muxreport",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "netdagent",
+	name: "vendor.netdagent",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/netdagent",
-	filename: "netdagent",
+	filename: "vendor.netdagent",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "netdc",
+	name: "vendor.netdc",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/netdc",
-	filename: "netdc",
+	filename: "vendor.netdc",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "nvram_daemon",
+	name: "vendor.nvram_daemon",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/nvram_daemon",
-	filename: "nvram_daemon",
+	filename: "vendor.nvram_daemon",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "paytrigger_test",
+	name: "vendor.paytrigger_test",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/paytrigger_test",
-	filename: "paytrigger_test",
+	filename: "vendor.paytrigger_test",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "pnpmgr",
+	name: "vendor.pnpmgr",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/pnpmgr",
-	filename: "pnpmgr",
+	filename: "vendor.pnpmgr",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "rcs_volte_stack",
+	name: "vendor.rcs_volte_stack",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/rcs_volte_stack",
-	filename: "rcs_volte_stack",
+	filename: "vendor.rcs_volte_stack",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "recordevent",
+	name: "vendor.recordevent",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/recordevent",
-	filename: "recordevent",
+	filename: "vendor.recordevent",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "replayevent",
+	name: "vendor.replayevent",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/replayevent",
-	filename: "replayevent",
+	filename: "vendor.replayevent",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "rt5512_calibration",
+	name: "vendor.rt5512_calibration",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/rt5512_calibration",
-	filename: "rt5512_calibration",
+	filename: "vendor.rt5512_calibration",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "rttv",
+	name: "vendor.rttv",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/rttv",
-	filename: "rttv",
+	filename: "vendor.rttv",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "starter",
+	name: "vendor.starter",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/starter",
-	filename: "starter",
+	filename: "vendor.starter",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "storage_feature_cloudctl",
+	name: "vendor.storage_feature_cloudctl",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/storage_feature_cloudctl",
-	filename: "storage_feature_cloudctl",
+	filename: "vendor.storage_feature_cloudctl",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "stp_dump3",
+	name: "vendor.stp_dump3",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/stp_dump3",
-	filename: "stp_dump3",
+	filename: "vendor.stp_dump3",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "stroke",
+	name: "vendor.stroke",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/stroke",
-	filename: "stroke",
+	filename: "vendor.stroke",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "thermal",
+	name: "vendor.thermal",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/thermal",
-	filename: "thermal",
+	filename: "vendor.thermal",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "thermal_manager",
+	name: "vendor.thermal_manager",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/thermal_manager",
-	filename: "thermal_manager",
+	filename: "vendor.thermal_manager",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "thermalloadalgod",
+	name: "vendor.thermalloadalgod",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/thermalloadalgod",
-	filename: "thermalloadalgod",
+	filename: "vendor.thermalloadalgod",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "tran_ihh",
+	name: "vendor.tran_ihh",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/tran_ihh",
-	filename: "tran_ihh",
+	filename: "vendor.tran_ihh",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "tran_ihh_cloudctl",
+	name: "vendor.tran_ihh_cloudctl",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/tran_ihh_cloudctl",
-	filename: "tran_ihh_cloudctl",
+	filename: "vendor.tran_ihh_cloudctl",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "tran_ocp",
+	name: "vendor.tran_ocp",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/tran_ocp",
-	filename: "tran_ocp",
+	filename: "vendor.tran_ocp",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "tran_tinymix",
+	name: "vendor.tran_tinymix",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/tran_tinymix",
-	filename: "tran_tinymix",
+	filename: "vendor.tran_tinymix",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "tranlog",
+	name: "vendor.tranlog",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/tranlog",
-	filename: "tranlog",
+	filename: "vendor.tranlog",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "tranlogconfig",
+	name: "vendor.tranlogconfig",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/tranlogconfig",
-	filename: "tranlogconfig",
+	filename: "vendor.tranlogconfig",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "v3avpud",
+	name: "vendor.v3avpud",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/v3avpud",
-	filename: "v3avpud",
+	filename: "vendor.v3avpud",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "verify_para",
+	name: "vendor.verify_para",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/verify_para",
-	filename: "verify_para",
+	filename: "vendor.verify_para",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "volte_imcb",
+	name: "vendor.volte_imcb",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/volte_imcb",
-	filename: "volte_imcb",
+	filename: "vendor.volte_imcb",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "volte_imsm_93",
+	name: "vendor.volte_imsm_93",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/volte_imsm_93",
-	filename: "volte_imsm_93",
+	filename: "vendor.volte_imsm_93",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "volte_md_status",
+	name: "vendor.volte_md_status",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/volte_md_status",
-	filename: "volte_md_status",
+	filename: "vendor.volte_md_status",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "volte_rcs_ua",
+	name: "vendor.volte_rcs_ua",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/volte_rcs_ua",
-	filename: "volte_rcs_ua",
+	filename: "vendor.volte_rcs_ua",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "volte_stack",
+	name: "vendor.volte_stack",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/volte_stack",
-	filename: "volte_stack",
+	filename: "vendor.volte_stack",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "volte_ua",
+	name: "vendor.volte_ua",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/volte_ua",
-	filename: "volte_ua",
+	filename: "vendor.volte_ua",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "wfca",
+	name: "vendor.wfca",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/wfca",
-	filename: "wfca",
+	filename: "vendor.wfca",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "wlan_assistant",
+	name: "vendor.wlan_assistant",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/wlan_assistant",
-	filename: "wlan_assistant",
+	filename: "vendor.wlan_assistant",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "wmt_launcher",
+	name: "vendor.wmt_launcher",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/wmt_launcher",
-	filename: "wmt_launcher",
+	filename: "vendor.wmt_launcher",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "wmt_loader",
+	name: "vendor.wmt_loader",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/wmt_loader",
-	filename: "wmt_loader",
+	filename: "vendor.wmt_loader",
 	soc_specific: true,
 }
 
 sh_binary {
-	name: "wpa_cli",
+	name: "vendor.wpa_cli",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/wpa_cli",
-	filename: "wpa_cli",
+	filename: "vendor.wpa_cli",
 	soc_specific: true,
 }
